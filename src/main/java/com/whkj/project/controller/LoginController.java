@@ -32,6 +32,9 @@ public class LoginController {
         return "success";
     }
 
+    /**
+     * 跳转后台系统主页
+     */
     @GetMapping(value = "/index")
     public String index(){
         return "blog/blog_admin/index";
