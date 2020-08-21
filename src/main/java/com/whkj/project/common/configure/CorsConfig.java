@@ -1,4 +1,4 @@
-package com.whkj.project.config;
+package com.whkj.project.common.configure;
 
 
 import org.springframework.context.annotation.Bean;

@@ -5,7 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-        <p>欢迎来到我们blog</p>
-        <p th:text="'hello, ' + ${name} + '!'" />
+        <h1>欢迎登陆系统</h1>
+        <form action="/login" method="post">
+            <input type="text" id="username" name="username" placeholder="请输入用户名" value="admin">
+            <input type="text" id="password" name="password" placeholder="请输入密码" value="123">
+            <input type="submit" value="登录">
+        </form>
 </body>
 </html>

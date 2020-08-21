@@ -2,4 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.whkj.project.mapper.UserMapper">
 
+    <select id="queryUserByName" resultType="com.whkj.project.entity.UserEntity">
+        SELECT
+            system_user.username,
+            system_user.`password`
+        FROM
+            `system_user`
+        WHERE
+            system_user.username = #{username,jdbcType=VARCHAR}
+    </select>
 </mapper>

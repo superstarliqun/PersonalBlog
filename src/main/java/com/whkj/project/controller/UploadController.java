@@ -8,7 +8,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -51,7 +50,7 @@ public class UploadController {
             return RestResult.ok(newFileName);
         } catch (IOException e) {
             e.printStackTrace();
-            return RestResult.build(EnumCode.FORBIDDEN.getValue(),"文件上传失败");
+            return RestResult.build(EnumCode.BAD_REQUEST.getValue(),"文件上传失败！");
         }
     }
 }
