@@ -760,3 +760,26 @@
 2020-08-21 15:34:00,451 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
 2020-08-21 15:34:00,451 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
 2020-08-21 15:34:03,070 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.187 seconds (JVM running for 4.53)
+2020-08-21 15:43:11,087 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:43:11,580 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:43:11,595 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:43:11,641 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 16:09:12,261 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 4224 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:09:12,264 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:09:12,264 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:09:15,304 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.513 seconds (JVM running for 5.044)
+2020-08-21 16:09:36,134 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 1588 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:09:36,137 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:09:36,138 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:09:39,082 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.51 seconds (JVM running for 5.179)
+2020-08-21 16:15:36,093 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 11744 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:15:36,097 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:15:36,098 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:15:50,649 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 12064 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:15:50,654 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:15:50,655 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:15:55,699 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 5.796 seconds (JVM running for 7.621)
+2020-08-21 16:17:31,171 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 16:17:31,678 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 16:17:31,696 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 16:17:31,736 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
