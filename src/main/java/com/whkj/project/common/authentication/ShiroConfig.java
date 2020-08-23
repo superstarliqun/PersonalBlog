@@ -13,6 +13,7 @@ import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.apache.shiro.web.servlet.SimpleCookie;
 import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
+import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -106,7 +107,7 @@ public class ShiroConfig {
         // 配置 缓存管理类 cacheManager
 //        securityManager.setCacheManager(cacheManager());
         // 配置 rememberMeCookie
-//        securityManager.setRememberMeManager(rememberMeManager());
+        securityManager.setRememberMeManager(rememberMeManager());
         return securityManager;
     }
 
@@ -129,23 +130,22 @@ public class ShiroConfig {
         cookie.setMaxAge(blogProperties.getShiro().getCookieTimeout());
         return cookie;
     }
-//
-//    /**
-//     * cookie管理对象
-//     *
-//     * @return CookieRememberMeManager
-//     */
-//    private CookieRememberMeManager rememberMeManager() {
-//        CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
-//        cookieRememberMeManager.setCookie(rememberMeCookie());
-//        // rememberMe cookie 加密的密钥
-//        String encryptKey = "febs_shiro_key";
-//        byte[] encryptKeyBytes = encryptKey.getBytes(StandardCharsets.UTF_8);
-//        String rememberKey = Base64Utils.encodeToString(Arrays.copyOf(encryptKeyBytes, 16));
-//        cookieRememberMeManager.setCipherKey(Base64.decode(rememberKey));
-//        return cookieRememberMeManager;
-//    }
-//
+
+    /**
+     * cookie管理对象
+     *
+     * @return CookieRememberMeManager
+     */
+    private CookieRememberMeManager rememberMeManager() {
+        CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
+        cookieRememberMeManager.setCookie(rememberMeCookie());
+        // rememberMe cookie 加密的密钥
+        String encryptKey = "shiro_key";
+        byte[] encryptKeyBytes = encryptKey.getBytes(StandardCharsets.UTF_8);
+        String rememberKey = Base64Utils.encodeToString(Arrays.copyOf(encryptKeyBytes, 16));
+        cookieRememberMeManager.setCipherKey(Base64.decode(rememberKey));
+        return cookieRememberMeManager;
+    }
 
     /**
      * 开启代码权限注释注解
@@ -159,8 +159,13 @@ public class ShiroConfig {
         return authorizationAttributeSourceAdvisor;
     }
 
+    @Bean
+    public static DefaultAdvisorAutoProxyCreator getDefaultAdvisorAutoProxyCreator(){
+        return new DefaultAdvisorAutoProxyCreator();
+    }
 
-//
+
+
 //    /**
 //     * 用于开启 Thymeleaf 中的 shiro 标签的使用
 //     *

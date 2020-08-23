@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="/ui/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/ui/js/jquery.form.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
         <h1>欢迎登陆系统</h1>
-        <form action="/login" method="post">
+        <form id="from" action="/login" method="post">
             <input type="text" id="username" name="username" placeholder="请输入用户名" value="admin">
             <input type="text" id="password" name="password" placeholder="请输入密码" value="123">
-            <input type="submit" value="登录">
+            <input type="text" id="captcha" name="captcha" placeholder="请输入验证码">
+            <img src="/user/generateImages" id="images" name="images">
+            记住我<input type="checkbox" id="rememberMe" name="rememberMe">
+            <input type="submit" id="sub" value="登录">
         </form>
 </body>
+<script type="text/javascript">
+    var q = true;
+    $("#sub").click(function () {
+        var qwe = true;
+        $("#from").ajaxSubmit(function (res) {
+            if(res.status!=200){
+                alert(123)
+                q = false;
+            }
+        });
+        alert('--->'+q)
+        return q;
+    });
+</script>
 </html>

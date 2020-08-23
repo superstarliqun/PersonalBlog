@@ -11,4 +11,28 @@
         WHERE
             system_user.username = #{username,jdbcType=VARCHAR}
     </select>
+    <select id="findUserRole" resultType="com.whkj.project.entity.RoleEntity">
+        SELECT
+            system_role.perms
+        FROM
+            system_user
+            LEFT JOIN system_user_role_middle ON system_user_role_middle.user_id = system_user.id
+            LEFT JOIN system_role ON system_role.id = system_user_role_middle.role_id
+        WHERE
+            system_user.username = #{primaryPrincipal,jdbcType=VARCHAR}
+    </select>
+    <select id="findUserMenu" resultType="com.whkj.project.entity.MenuEntity">
+        SELECT
+            system_menu.perms
+        FROM
+            system_user
+            LEFT JOIN system_user_role_middle ON system_user_role_middle.user_id = system_user.id
+            LEFT JOIN system_role ON system_role.id = system_user_role_middle.role_id
+            LEFT JOIN system_role_menu_middle ON system_role_menu_middle.role_id = system_role.id
+            LEFT JOIN system_menu ON system_menu.id = system_role_menu_middle.menu_id
+        WHERE
+            system_user.username = #{primaryPrincipal,jdbcType=VARCHAR}
+    </select>
+
+
 </mapper>

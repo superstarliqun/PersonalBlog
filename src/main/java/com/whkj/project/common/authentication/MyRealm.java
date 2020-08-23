@@ -1,15 +1,22 @@
 package com.whkj.project.common.authentication;
 
+import com.whkj.project.entity.MenuEntity;
+import com.whkj.project.entity.RoleEntity;
 import com.whkj.project.entity.UserEntity;
 import com.whkj.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * @Author SUPERSTARLIQUN
@@ -25,7 +32,26 @@ public class MyRealm extends AuthorizingRealm {
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-        return null;
+        log.info("已经进入权限认证···");
+        String primaryPrincipal =(String) principals.getPrimaryPrincipal();
+
+        //创建返回实体
+        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
+
+        //查询角色与权限的结果集
+        List<RoleEntity> roleList = userService.findUserRole(primaryPrincipal);
+        List<MenuEntity> permissionList = userService.findUserMenu(primaryPrincipal);
+
+        //角色与权限都是List<E>集合
+        Set<String> roleSet = roleList.stream().map(RoleEntity::getPerms).collect(Collectors.toSet());
+        Set<String> permissionSet = permissionList.stream().map(MenuEntity::getPerms).collect(Collectors.toSet());
+
+        //将权限认证放入simpleAuthorizationInfo进行自动任务装配
+        simpleAuthorizationInfo.setStringPermissions(permissionSet);
+        //将角色认证放入simpleAuthorizationInfo进行自动任务装配
+        simpleAuthorizationInfo.setRoles(roleSet);
+
+        return simpleAuthorizationInfo;
     }
 
     /**

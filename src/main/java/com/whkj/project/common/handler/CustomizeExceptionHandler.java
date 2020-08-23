@@ -31,8 +31,8 @@ public class CustomizeExceptionHandler {
      */
     @ExceptionHandler(value = MyException.class)
     public RestResult handleException(MyException e) {
-        log.error("系统内部异常，异常信息", e);
-        return RestResult.build(EnumCode.BAD_REQUEST.getValue(),"系统内部异常，请联系管理员！");
+        log.error("系统内部异常，异常信息", e.getMessage());
+        return RestResult.build(EnumCode.BAD_REQUEST.getValue(),e.getMessage());
     }
 
     /**
