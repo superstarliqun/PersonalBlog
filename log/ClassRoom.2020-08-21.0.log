@@ -1,0 +1,868 @@
+2020-08-21 10:22:01,878 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 8 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:22:01,900 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:22:01,901 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:22:04,921 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.477 seconds (JVM running for 5.825)
+2020-08-21 10:24:39,063 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 1736 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:24:39,068 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:24:39,069 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:24:42,631 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.975 seconds (JVM running for 5.056)
+2020-08-21 10:26:59,808 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 7108 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:26:59,811 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:26:59,811 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:27:02,428 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.184 seconds (JVM running for 4.528)
+2020-08-21 10:27:48,010 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 15852 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:27:48,013 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:27:48,013 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:27:50,508 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.02 seconds (JVM running for 4.105)
+2020-08-21 10:29:03,502 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 14500 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:29:03,507 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:29:03,507 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:29:06,283 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.458 seconds (JVM running for 4.667)
+2020-08-21 10:29:17,157 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 13320 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:29:17,161 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:29:17,162 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:29:19,856 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.133 seconds (JVM running for 4.481)
+2020-08-21 10:33:00,667 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 16088 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:33:00,670 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:33:00,670 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:33:03,167 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.033 seconds (JVM running for 4.22)
+2020-08-21 10:47:20,501 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 15820 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:47:20,504 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:47:20,504 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:47:23,099 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.108 seconds (JVM running for 4.271)
+2020-08-21 10:50:24,346 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 11332 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:50:24,351 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:50:24,352 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:50:28,133 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.618 seconds (JVM running for 6.002)
+2020-08-21 10:51:10,408 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 5144 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:51:10,410 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:51:10,411 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:51:13,122 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.245 seconds (JVM running for 4.403)
+2020-08-21 10:52:25,486 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 15492 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:52:25,489 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:52:25,490 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:52:28,033 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.07 seconds (JVM running for 4.393)
+2020-08-21 10:56:20,227 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 10:56:29,789 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password`, FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 10:56:29,982 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 123123(String)
+2020-08-21 10:57:25,547 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 10:57:25,615 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password`, FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 10:57:25,617 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 123123(String)
+2020-08-21 10:57:42,816 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 5016 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 10:57:42,819 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 10:57:42,819 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 10:57:45,345 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.013 seconds (JVM running for 4.121)
+2020-08-21 11:06:49,609 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:06:51,739 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:06:51,754 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 123123(String)
+2020-08-21 11:06:51,806 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-21 11:06:51,810 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:06:53,533 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:06:53,591 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:06:53,592 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 123123(String)
+2020-08-21 11:06:53,617 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-21 11:06:53,619 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:07:23,595 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:07:25,783 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:07:25,785 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 123123(String)
+2020-08-21 11:07:25,812 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-21 11:07:34,459 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:09:07,385 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 11904 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 11:09:07,387 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 11:09:07,388 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 11:09:09,931 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.036 seconds (JVM running for 4.213)
+2020-08-21 11:09:18,206 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:09:31,230 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:09:31,429 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:09:31,635 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:09:54,396 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:10:08,792 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:10:09,844 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:10:09,846 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:10:09,871 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:10:16,505 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:10:16,532 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:10:16,533 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:10:16,557 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:10:18,192 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:10:18,216 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:10:18,217 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:10:18,242 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:18:18,399 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:18:40,202 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:19:00,235 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:19:00,236 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:19:00,258 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:19:10,615 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:19:10,636 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:19:10,637 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:19:10,658 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:19:10,659 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:19:13,300 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:19:13,320 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:19:13,321 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:19:13,340 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:19:13,340 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:19:15,301 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:19:15,320 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:19:15,321 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:19:15,349 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:19:15,350 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:19:24,370 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:19:24,392 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:19:24,393 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:19:24,426 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:19:24,427 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:19:36,555 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 14076 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 11:19:36,559 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 11:19:36,560 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 11:19:40,181 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.225 seconds (JVM running for 5.526)
+2020-08-21 11:22:41,188 INFO (MyRealm.java:39)- 已经进入用户认证···
+2020-08-21 11:22:41,653 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:22:41,668 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:22:41,708 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:22:41,713 ERROR (MyRealm.java:49)- 用户名或者密码验证失败！
+2020-08-21 11:27:01,344 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 10804 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 11:27:01,348 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 11:27:01,348 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 11:27:04,120 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.297 seconds (JVM running for 4.499)
+2020-08-21 11:27:10,152 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:27:11,296 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:27:11,311 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:27:11,385 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:27:11,389 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:27:17,757 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:27:17,796 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:27:17,799 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:27:17,854 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:27:17,854 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:50:27,022 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 6060 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 11:50:27,025 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 11:50:27,025 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 11:50:29,858 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.354 seconds (JVM running for 4.75)
+2020-08-21 11:50:53,950 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:50:54,420 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:50:54,436 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:50:54,477 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:50:54,481 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:51:01,978 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:51:02,004 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:51:02,005 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:51:02,032 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:51:02,033 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:51:54,575 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:51:54,600 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:51:54,601 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:51:54,625 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:51:54,626 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:52:18,854 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:52:18,878 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:52:18,878 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:52:18,903 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:52:18,904 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:52:19,421 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:52:19,447 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:52:19,449 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:52:19,475 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:52:19,476 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:52:19,592 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:52:19,593 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:52:19,594 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:52:19,620 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:52:19,621 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:52:19,758 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:52:19,759 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:52:19,759 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:52:19,784 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:52:19,785 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:52:19,901 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:52:19,903 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:52:19,904 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:52:19,932 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:52:19,933 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:52:20,092 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:52:20,093 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:52:20,095 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:52:20,123 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:52:20,125 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 11:52:20,259 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 11:52:20,260 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 11:52:20,260 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 11:52:20,286 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 11:52:20,287 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:16,266 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:32,893 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 17372 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:11:32,896 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:11:32,897 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:11:36,684 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.285 seconds (JVM running for 6.045)
+2020-08-21 13:11:40,428 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:40,889 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:40,903 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:40,948 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:40,952 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:43,677 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:43,706 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:43,708 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:43,730 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:43,730 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:44,311 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:44,335 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:44,335 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:44,361 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:44,362 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:46,126 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:46,149 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:46,149 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:46,175 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:46,176 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:46,507 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:46,507 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:46,508 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:46,534 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:46,534 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:46,816 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:46,816 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:46,816 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:46,845 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:46,845 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:47,159 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:47,160 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:47,160 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:47,185 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:47,186 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:49,297 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:49,336 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:49,338 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:49,376 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:49,377 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:50,361 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:50,381 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:50,382 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:50,409 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:50,410 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:50,584 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:50,585 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:50,586 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:50,616 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:50,616 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:50,761 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:50,761 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:50,762 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:50,789 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:50,790 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:11:50,995 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:11:50,995 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:11:50,996 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:11:51,045 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:11:51,046 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:10,919 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 13160 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:14:10,922 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:14:10,923 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:14:13,621 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.214 seconds (JVM running for 4.337)
+2020-08-21 13:14:31,910 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:32,358 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:32,371 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:32,408 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:32,412 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:33,109 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:33,139 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:33,141 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:33,166 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:33,166 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:33,370 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:33,371 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:33,372 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:33,396 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:33,397 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:33,628 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:33,629 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:33,630 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:33,680 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:33,680 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:33,840 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:33,840 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:33,842 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:33,873 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:33,874 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:33,995 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:33,996 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:33,996 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:34,024 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:34,025 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:34,193 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:34,194 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:34,194 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:34,223 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:34,224 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:35,182 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:35,209 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:35,209 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:35,235 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:35,235 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:14:35,972 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:14:35,997 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:14:35,998 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:14:36,030 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:14:36,032 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:17:43,052 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 8 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:17:43,056 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:17:43,057 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:17:46,064 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.6 seconds (JVM running for 4.787)
+2020-08-21 13:19:13,690 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 18848 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:19:13,693 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:19:13,694 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:19:16,646 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.498 seconds (JVM running for 4.648)
+2020-08-21 13:21:29,580 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 8420 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:21:29,583 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:21:29,583 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:21:32,427 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.415 seconds (JVM running for 4.643)
+2020-08-21 13:21:38,496 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:21:38,970 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:21:38,987 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:21:39,045 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:21:39,049 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:22:17,648 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:22:17,671 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:22:17,671 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:22:17,704 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:22:17,705 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:22:18,351 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:22:18,376 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:22:18,378 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:22:18,400 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:22:18,401 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:22:18,580 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:22:18,581 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:22:18,581 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:22:18,606 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:22:18,607 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:22:18,799 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:22:18,800 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:22:18,800 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:22:18,823 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:22:18,824 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:22:20,670 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:22:20,696 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:22:20,697 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:22:20,719 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:22:20,719 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:22:21,478 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:22:21,499 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:22:21,500 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:22:21,524 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:22:21,524 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:22:22,672 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:22:22,708 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:22:22,709 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:22:22,741 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:22:22,742 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:23:08,264 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 20004 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:23:08,267 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:23:08,268 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:23:11,125 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.418 seconds (JVM running for 4.55)
+2020-08-21 13:31:16,681 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:31:17,179 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:31:17,194 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:31:17,235 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:31:17,240 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:32:25,180 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 20380 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:32:25,184 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:32:25,185 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:32:28,036 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.404 seconds (JVM running for 4.622)
+2020-08-21 13:32:59,699 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 11404 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:32:59,703 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:32:59,703 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:33:02,633 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.502 seconds (JVM running for 4.754)
+2020-08-21 13:38:09,481 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 19408 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:38:09,484 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:38:09,485 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:38:12,289 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.367 seconds (JVM running for 4.673)
+2020-08-21 13:45:30,712 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 15820 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:45:30,714 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:45:30,715 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:45:33,325 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.162 seconds (JVM running for 4.384)
+2020-08-21 13:46:33,312 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 11172 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:46:33,314 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:46:33,314 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:46:35,828 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.077 seconds (JVM running for 4.58)
+2020-08-21 13:47:56,078 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 17472 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:47:56,082 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:47:56,082 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:47:58,769 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.229 seconds (JVM running for 4.539)
+2020-08-21 13:48:13,846 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:48:14,392 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:48:14,410 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:48:14,453 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:48:14,457 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:51:23,320 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 16084 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 13:51:23,325 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 13:51:23,326 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 13:51:26,479 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.726 seconds (JVM running for 4.813)
+2020-08-21 13:51:31,466 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:51:31,947 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:51:31,964 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:51:32,009 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:51:32,014 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:51:35,298 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:51:35,326 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:51:35,329 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:51:35,357 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:51:35,357 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:52:31,908 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:52:31,937 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:52:31,939 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:52:31,967 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:52:31,970 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:52:48,208 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:52:48,229 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:52:48,230 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:52:48,258 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:52:48,259 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:53:14,203 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:53:14,240 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:53:14,241 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:53:14,271 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:53:14,272 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:53:20,298 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:53:20,323 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:53:20,324 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:53:20,348 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:53:20,349 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:53:50,342 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:53:50,368 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:53:50,371 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:53:50,398 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:53:50,399 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:53:59,691 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:53:59,717 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:53:59,721 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:53:59,756 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:53:59,757 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:54:34,912 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:54:34,937 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:54:34,939 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:54:34,963 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:54:34,964 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:54:50,378 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:54:50,404 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:54:50,405 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:54:50,428 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:54:50,429 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:55:10,412 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:55:10,436 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:55:10,440 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:55:10,473 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:55:10,474 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:56:17,177 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:56:17,204 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:56:17,204 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:56:17,255 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:56:17,256 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:56:22,192 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:56:22,330 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:56:22,331 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:56:22,373 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:56:22,374 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:56:33,949 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:56:33,972 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:56:33,974 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:56:33,997 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:56:33,998 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:56:35,951 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:56:35,980 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:56:35,981 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:56:36,007 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:56:36,008 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:56:44,501 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:56:44,526 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:56:44,528 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:56:44,556 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:56:44,557 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:56:55,189 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:56:55,217 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:56:55,221 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:56:55,248 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:56:55,249 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 13:57:04,681 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 13:57:04,708 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 13:57:04,708 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 13:57:04,733 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 13:57:04,734 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:00:14,990 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:00:15,016 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:00:15,017 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:00:15,043 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:00:15,044 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:00:19,397 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:00:19,421 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:00:19,422 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:00:19,449 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:00:19,450 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:06:36,333 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:06:45,196 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:06:47,654 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:06:56,846 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 1184 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 14:06:56,849 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 14:06:56,850 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 14:06:59,630 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.366 seconds (JVM running for 4.588)
+2020-08-21 14:07:09,258 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:07:09,721 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:07:09,734 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:07:09,771 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:07:09,774 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:08:38,674 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:08:38,725 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:08:38,727 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:08:38,750 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:08:38,752 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:08:59,876 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:08:59,902 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:08:59,906 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:08:59,989 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:08:59,991 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:13:00,339 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:13:00,389 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:13:00,389 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:13:00,412 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:13:00,413 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:13:26,644 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:13:26,672 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:13:26,673 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:13:26,697 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:13:26,698 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:19:30,865 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:20:45,187 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:21:05,244 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:21:05,245 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:21:05,271 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:21:05,272 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:21:33,836 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:21:33,861 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:21:33,862 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:21:33,889 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:21:33,890 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:27:56,688 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 10596 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 14:27:56,692 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 14:27:56,693 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 14:28:01,601 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 5.469 seconds (JVM running for 6.894)
+2020-08-21 14:28:01,931 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:28:02,544 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:28:02,582 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:28:02,675 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:28:02,683 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:28:02,694 ERROR (CustomizeExceptionHandler.java:44)- 用户认证过程中，认证失败!
+2020-08-21 14:38:51,346 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 12572 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 14:38:51,350 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 14:38:51,351 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 14:38:54,757 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.176 seconds (JVM running for 5.986)
+2020-08-21 14:39:01,640 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 14:39:02,157 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 14:39:02,171 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 14:39:02,210 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 14:39:02,214 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 14:39:02,216 ERROR (CustomizeExceptionHandler.java:44)- 用户认证过程中，认证失败!
+2020-08-21 15:08:59,153 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 18284 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 15:08:59,156 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 15:08:59,157 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 15:09:02,599 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.133 seconds (JVM running for 5.805)
+2020-08-21 15:13:53,154 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 16608 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 15:13:53,157 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 15:13:53,158 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 15:13:56,951 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.415 seconds (JVM running for 6.136)
+2020-08-21 15:14:03,982 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:14:04,585 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:14:04,600 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:14:04,642 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:14:04,648 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:16:00,521 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:16:00,545 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:16:00,546 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:16:00,570 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:16:00,571 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:17:21,108 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:17:21,133 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:17:21,134 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:17:21,158 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:17:21,160 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:27:17,368 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:27:19,601 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:27:33,335 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 19252 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 15:27:33,338 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 15:27:33,338 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 15:27:36,634 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.931 seconds (JVM running for 5.583)
+2020-08-21 15:27:41,123 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:27:46,737 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:27:46,751 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:27:46,791 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:27:46,795 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:14,757 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:14,784 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:14,785 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:14,811 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:14,812 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:15,913 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:15,937 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:15,939 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:15,984 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:15,985 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:16,483 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:16,484 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:16,485 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:16,514 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:16,515 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:16,948 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:16,949 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:16,950 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:16,979 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:16,981 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:17,153 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:17,154 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:17,154 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:17,182 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:17,183 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:17,319 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:17,320 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:17,320 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:17,347 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:17,348 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:17,468 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:17,469 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:17,470 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:17,496 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:17,501 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:17,614 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:17,614 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:17,616 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:17,643 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:17,646 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:17,785 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:17,786 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:17,787 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:17,813 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:17,814 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:18,031 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:18,032 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:18,034 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:18,062 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:18,063 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:18,429 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:18,430 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:18,431 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:18,464 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:18,465 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:24,065 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:24,088 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:24,088 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:24,114 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:24,115 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:24,288 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:24,288 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:24,288 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:24,312 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:24,313 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:24,460 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:24,461 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:24,462 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:24,487 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:24,487 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:24,607 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:24,608 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:24,609 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:24,636 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:24,638 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:28:43,938 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:28:43,960 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:28:43,962 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:28:43,994 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:28:43,997 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:29:43,745 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:29:43,780 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:29:43,780 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:29:43,804 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:29:43,805 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:16,280 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:16,307 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:16,309 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:16,331 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:16,332 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:18,071 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:18,094 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:18,096 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:18,126 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:18,130 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:25,218 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:25,239 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:25,240 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:25,265 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:25,266 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:25,684 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:25,685 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:25,685 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:25,706 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:25,706 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:25,885 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:25,886 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:25,886 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:25,912 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:25,913 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:26,051 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:26,052 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:26,052 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:26,074 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:26,074 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:26,719 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:26,744 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:26,746 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:26,769 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:26,770 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:26,914 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:26,914 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:26,915 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:26,938 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:26,938 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:27,083 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:27,084 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:27,084 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:27,107 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:27,107 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:27,254 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:27,254 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:27,255 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:27,276 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:27,279 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:27,422 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:27,423 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:27,423 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:27,446 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:27,446 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:31:27,586 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:31:27,586 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:31:27,587 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:31:27,612 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:31:27,614 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:32:23,023 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 16588 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 15:32:23,027 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 15:32:23,028 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 15:32:25,951 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.506 seconds (JVM running for 4.848)
+2020-08-21 15:32:27,364 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:32:27,867 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:32:27,886 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:32:27,931 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:32:27,936 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:32:27,940 ERROR (CustomizeExceptionHandler.java:45)- 用户认证过程中，认证失败!
+2020-08-21 15:32:46,170 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:32:46,200 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:32:46,201 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:32:46,229 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 15:32:46,230 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 15:32:46,230 ERROR (CustomizeExceptionHandler.java:45)- 用户认证过程中，认证失败!
+2020-08-21 15:34:00,448 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 19992 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 15:34:00,451 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 15:34:00,451 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 15:34:03,070 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.187 seconds (JVM running for 4.53)
+2020-08-21 15:43:11,087 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 15:43:11,580 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 15:43:11,595 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 15:43:11,641 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 16:09:12,261 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 4224 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:09:12,264 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:09:12,264 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:09:15,304 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.513 seconds (JVM running for 5.044)
+2020-08-21 16:09:36,134 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 1588 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:09:36,137 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:09:36,138 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:09:39,082 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.51 seconds (JVM running for 5.179)
+2020-08-21 16:15:36,093 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 11744 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:15:36,097 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:15:36,098 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:15:50,649 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 12064 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 16:15:50,654 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 16:15:50,655 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 16:15:55,699 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 5.796 seconds (JVM running for 7.621)
+2020-08-21 16:17:31,171 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 16:17:31,678 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 16:17:31,696 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 16:17:31,736 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:09:36,224 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 11256 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:09:36,227 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:09:36,228 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:09:39,116 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.386 seconds (JVM running for 4.946)
+2020-08-21 17:09:55,021 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:09:55,447 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:09:55,463 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:09:55,501 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:09:55,505 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 17:09:55,508 ERROR (CustomizeExceptionHandler.java:45)- 用户认证过程中，认证失败!
+2020-08-21 17:10:01,589 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:10:01,612 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:10:01,613 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:10:01,636 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:16:01,213 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 21340 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:16:01,216 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:16:01,216 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:16:03,971 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.371 seconds (JVM running for 4.663)
+2020-08-21 17:16:21,142 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:16:21,589 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:16:21,605 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:16:21,647 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:21:09,231 INFO (StartupInfoLogger.java:55)- Starting springBootApplicationTests on DESKTOP-LCULKOV with PID 15644 (started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:21:09,232 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:21:09,233 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:21:14,591 INFO (StartupInfoLogger.java:61)- Started springBootApplicationTests in 5.729 seconds (JVM running for 7.932)
+2020-08-21 17:22:46,003 INFO (StartupInfoLogger.java:55)- Starting springBootApplicationTests on DESKTOP-LCULKOV with PID 17420 (started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:22:46,005 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:22:46,007 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:22:58,477 INFO (StartupInfoLogger.java:61)- Started springBootApplicationTests in 13.681 seconds (JVM running for 20.452)
+2020-08-21 17:23:37,716 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:24:10,215 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 17092 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:24:10,219 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:24:10,220 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:24:14,076 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.674 seconds (JVM running for 7.034)
+2020-08-21 17:24:41,123 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:24:42,548 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:24:42,562 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:24:42,599 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:31:11,103 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 20128 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:31:11,106 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:31:11,107 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:31:15,273 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.88 seconds (JVM running for 7.454)
+2020-08-21 17:31:45,245 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:31:45,945 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:31:45,977 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:31:46,030 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:32:13,100 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 15392 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:32:13,105 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:32:13,106 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:32:16,570 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 4.164 seconds (JVM running for 6.43)
+2020-08-21 17:32:21,351 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:32:21,886 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:32:21,902 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:32:21,945 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:32:21,949 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 17:32:21,951 ERROR (CustomizeExceptionHandler.java:45)- 用户认证过程中，认证失败!
+2020-08-21 17:32:24,603 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:32:24,633 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:32:24,634 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:32:24,657 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:34:42,157 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 17636 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:34:42,161 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:34:42,161 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:34:46,511 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 5.016 seconds (JVM running for 9.217)
+2020-08-21 17:35:00,417 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:35:01,243 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:35:01,286 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:35:01,355 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:35:01,365 ERROR (MyRealm.java:47)- 用户名或者密码验证失败！
+2020-08-21 17:35:01,372 ERROR (CustomizeExceptionHandler.java:45)- 用户认证过程中，认证失败!
+2020-08-21 17:35:06,301 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:35:06,324 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:35:06,326 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:35:06,348 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-21 17:38:35,530 INFO (StartupInfoLogger.java:55)- Starting PersonalBlogApplication on DESKTOP-LCULKOV with PID 21480 (C:\Users\ThinkPad\Desktop\PersonalBlog\target\classes started by ThinkPad in C:\Users\ThinkPad\Desktop\PersonalBlog)
+2020-08-21 17:38:35,534 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-21 17:38:35,535 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-08-21 17:38:38,844 INFO (StartupInfoLogger.java:61)- Started PersonalBlogApplication in 3.95 seconds (JVM running for 6.393)
+2020-08-21 17:38:44,817 INFO (MyRealm.java:36)- 已经进入用户认证···
+2020-08-21 17:38:45,446 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT system_user.username, system_user.`password` FROM `system_user` WHERE system_user.username = ? 
+2020-08-21 17:38:45,475 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: admin(String)
+2020-08-21 17:38:45,526 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
