@@ -26,11 +26,13 @@ public class UserController {
         return RestResult.ok();
     }
 
-
     @GetMapping(value = "/generateImages")
     public void generateImages(HttpServletRequest request, HttpServletResponse response) throws IOException {
         userService.generateImages(request,response);
     }
+
+
+
 
 
 }
