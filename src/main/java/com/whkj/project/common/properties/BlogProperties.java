@@ -16,4 +16,7 @@ import org.springframework.context.annotation.PropertySource;
 public class BlogProperties {
 
     private ShiroProperties shiro = new ShiroProperties();
+
+    //设置默认启动项目打开浏览器
+    private boolean autoOpenBrowser = true;
 }
