@@ -6,6 +6,8 @@ import com.whkj.project.common.properties.ValidateCodeProperties;
 import com.whkj.project.entity.MenuEntity;
 import com.whkj.project.entity.RoleEntity;
 import com.whkj.project.entity.UserEntity;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
@@ -20,6 +22,7 @@ import com.whkj.project.service.UserService;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @Service
 public class UserServiceImpl implements UserService{
@@ -27,7 +30,10 @@ public class UserServiceImpl implements UserService{
     @Resource
     private UserMapper userMapper;
 
-    @Override
+    @Autowired
+    RedisTemplate redisTemplate;
+
+     @Override
     public UserEntity queryUserByName(String username) {
         return userMapper.queryUserByName(username);
     }
@@ -44,9 +50,6 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public void generateImages(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        HttpSession session = request.getSession();
-        String key = session.getId();
-
         ValidateCodeProperties code = new ValidateCodeProperties();
 
         response.setContentType(MediaType.IMAGE_PNG_VALUE);
@@ -55,7 +58,7 @@ public class UserServiceImpl implements UserService{
         response.setDateHeader(HttpHeaders.EXPIRES, 0L);
 
         Captcha captcha = new SpecCaptcha(code.getWidth(), code.getHeight(), code.getLength());
-        session.setAttribute("captcha_"+key,captcha.text().toLowerCase());
+        redisTemplate.opsForValue().set("captcha_"+request.getSession().getId(),captcha.text().toLowerCase(),1, TimeUnit.MINUTES);
         captcha.setCharType(code.getCharType());
         captcha.out(response.getOutputStream());
     }
