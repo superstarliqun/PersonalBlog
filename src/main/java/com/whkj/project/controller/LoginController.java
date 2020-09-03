@@ -2,12 +2,17 @@ package com.whkj.project.controller;
 
 import com.wf.captcha.utils.CaptchaUtil;
 import com.whkj.project.common.handler.exception.MyException;
+import com.whkj.project.common.service.ValidationOfCaptcha;
+import com.whkj.project.service.LoginLogService;
 import com.whkj.project.utils.MD5Util;
 import com.whkj.project.utils.RestResult;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -20,6 +25,14 @@ import java.util.Objects;
 @RestController
 public class LoginController {
 
+    @Autowired
+    LoginLogService loginLogService;
+
+    @Autowired
+    RedisTemplate redisTemplate;
+
+    @Autowired
+    ValidationOfCaptcha validation;
 
     /**
      * 登录方法
@@ -31,14 +44,8 @@ public class LoginController {
                         @RequestParam(value = "rememberMe",defaultValue = "false") Boolean rememberMe,
                         @RequestParam(value = "captcha") String captcha,
                         HttpServletRequest request){
-        HttpSession session = request.getSession();
-        String attribute = session.getAttribute("captcha_" + session.getId()).toString();
-        if (StringUtils.isBlank(captcha)) {
-            throw new MyException("请输入验证码");
-        }
-        if(!attribute.equalsIgnoreCase(captcha)){
-            throw new MyException("验证码不一致！");
-        }
+        String data = (String) redisTemplate.opsForValue().get("captcha_" + request.getSession().getId());
+        validation.check(captcha,data,request);
         Subject subject = SecurityUtils.getSubject();
         password = MD5Util.encrypt(username.toLowerCase(), password);
         UsernamePasswordToken token = new UsernamePasswordToken(username, password,rememberMe);
@@ -54,6 +61,16 @@ public class LoginController {
         Subject subject = SecurityUtils.getSubject();
         subject.logout();
         return RestResult.ok();
+    }
+
+
+    /**
+     * 查询日志列表方法
+     */
+
+    @GetMapping(value = "/getLoginLog")
+    public RestResult getLoginLog(){
+        return RestResult.ok(loginLogService.getLoginLog());
     }
 
 

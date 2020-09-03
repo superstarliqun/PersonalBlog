@@ -575,5 +575,20 @@
     <script src="ui/js/app.js"></script>
 
 </body>
+    <script type="text/javascript">
+        $(function () {
+            $.ajax({
+                type : "GET",    //请求类型
+                url : "/getLoginLog",//请求的 URL地址
+                dataType : "json",//返回的数据类型
+                success: function (data) {
+                    console.log(data)
+                },
+                error:function (data) {
+                    alert(data.result);
+                }
+            });
+        });
+    </script>
 
 </html>
