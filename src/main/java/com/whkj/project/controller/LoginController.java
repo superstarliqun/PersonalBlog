@@ -24,7 +24,7 @@ public class LoginController {
 
     @GetMapping(value = "/login")
     public String login1(){
-        return "login";
+        return "/blog/blog_admin/login";
     }
 
 

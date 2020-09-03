@@ -10,18 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="icon" type="image/png" href="assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <link rel="icon" type="image/png" href="ui/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="ui/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
-    <link rel="stylesheet" href="assets/css/amazeui.datatables.min.css" />
-    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="ui/css/amazeui.min.css" />
+    <link rel="stylesheet" href="ui/css/amazeui.datatables.min.css" />
+    <link rel="stylesheet" href="ui/css/app.css">
     <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
 
 </head>
 
 <body data-type="login">
-    <script src="assets/js/theme.js"></script>
+    <script src="ui/js/theme.js"></script>
     <div class="am-g tpl-g">
         <!-- 风格切换 -->
         <div class="tpl-skiner">
@@ -39,22 +39,24 @@
         </div>
         <div class="tpl-login">
             <div class="tpl-login-content">
-                <div class="tpl-login-logo">
-
-                </div>
-
-
-
+                <h1 style="color: white;padding-left: 70px;">blog管理系统</h1>
                 <form class="am-form tpl-form-line-form">
                     <div class="am-form-group">
-                        <input type="text" class="tpl-form-input" id="user-name" placeholder="请输入账号">
+                        <input type="text" class="tpl-form-input" id="username" placeholder="请输入账号">
 
                     </div>
 
                     <div class="am-form-group">
-                        <input type="password" class="tpl-form-input" id="user-name" placeholder="请输入密码">
-
+                        <input type="password" class="tpl-form-input" id="password" placeholder="请输入密码">
                     </div>
+
+                    <div class="am-form-group">
+                        <img src="/user/generateImages" id="images" name="images">
+                        <input type="text" class="tpl-form-input code" id="code" placeholder="请输入密码">
+                    </div>
+
+
+
                     <div class="am-form-group tpl-login-remember-me">
                         <input id="remember-me" type="checkbox">
                         <label for="remember-me">
@@ -79,8 +81,14 @@
         </div>
     </div>
     <script src="http://cdn.bootcss.com/amazeui/2.7.2/js/amazeui.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="ui/js/app.js"></script>
 
 </body>
-
+    <style>
+        .code{
+            margin-top: 12px;
+            float: right;
+            width: 50%;
+        }
+    </style>
 </html>
