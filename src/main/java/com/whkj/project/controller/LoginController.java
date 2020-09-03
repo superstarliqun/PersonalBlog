@@ -1,42 +1,27 @@
 package com.whkj.project.controller;
 
-import com.wf.captcha.utils.CaptchaUtil;
-import com.whkj.project.common.handler.exception.MyException;
 import com.whkj.project.common.service.ValidationOfCaptcha;
 import com.whkj.project.service.LoginLogService;
 import com.whkj.project.utils.MD5Util;
 import com.whkj.project.utils.RestResult;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.util.Objects;
 
 
 @RestController
 public class LoginController {
 
-<<<<<<< HEAD
-    @GetMapping(value = "/login")
-    public String login1(){
-        return "/blog/blog_admin/login";
-    }
-=======
     @Autowired
     LoginLogService loginLogService;
 
     @Autowired
     RedisTemplate redisTemplate;
->>>>>>> 70d1bc81e90d94da77dd23d8376d12c37d3e275e
 
     @Autowired
     ValidationOfCaptcha validation;
