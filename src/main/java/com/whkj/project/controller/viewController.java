@@ -34,7 +34,50 @@ public class viewController {
      */
     @GetMapping(value = "/logins")
     public String logins(){
-        return "blog/blog_admin/login";
+        return "reLogin";
+    }
+
+
+    /**
+     * 个人简历页面
+     */
+    @GetMapping(value = "/blog")
+    public String blog(){
+        return "blog/blog_view/blog_center";
+    }
+
+
+    /**
+     *个人博客首页
+     */
+    @GetMapping(value = "/curriculum")
+    public String curriculum(){
+        return "blog/blog_view/curriculum_vitae";
+    }
+
+    /**
+     *个人博客首页
+     */
+    @GetMapping(value = "/feedback")
+    public String feedback(){
+        return "blog/blog_view/feedback";
+    }
+
+
+    /**
+     *个人博客首页
+     */
+    @GetMapping(value = "/home")
+    public String home(){
+        return "blog/blog_view/home_page";
+    }
+
+    /**
+     *个人博客首页
+     */
+    @GetMapping(value = "/product")
+    public String product(){
+        return "blog/blog_view/product_center";
     }
 
 

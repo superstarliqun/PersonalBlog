@@ -1,0 +1,28 @@
+body{
+    background-color:transparent;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+.Copyright{
+    margin: 0
+}
+.container-main{
+    min-height: 852px;
+    position: relative;
+}
+.main{
+    width: 400px;
+    min-height: 500px;
+    box-shadow:  0 2px 12px 0 rgba(0,0,0,.1);
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 1px solid #ebeef5;
+    overflow: hidden;
+    color: #303133;
+    /*定位卡片位置*/
+    position: absolute;
+    left: 64%;
+    top: 17%;
+}

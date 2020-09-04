@@ -19,12 +19,22 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    /**
+     * 查询用户详情
+     * @return
+     */
     @GetMapping(value = "/findOneUserDetails")
     @RequiresRoles("administrator")
     public RestResult findOneUserDetails(){
         return RestResult.ok();
     }
 
+    /**
+     * 生成验证码
+     * @param request
+     * @param response
+     * @throws IOException
+     */
     @GetMapping(value = "/generateImages")
     public void generateImages(HttpServletRequest request, HttpServletResponse response) throws IOException {
         userService.generateImages(request,response);

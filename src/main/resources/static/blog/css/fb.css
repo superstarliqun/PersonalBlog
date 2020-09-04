@@ -1,0 +1,35 @@
+/* 客户反馈页面css样式文件 */
+.left-context {
+	float: left;
+	width: 60%;
+	padding: 10px 20px 10px 20px;
+}
+.mainContent{
+	background-color: #86a1b6;
+	position: fixed;
+	top: 40px; 
+	left: 0px; 
+	right: 0px; 
+	bottom: 0px
+}
+
+.text_book{
+	width: 60%;
+	margin: 15% auto;
+}
+.text_book ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.text_book ul li{
+	float: left;
+	list-style:none;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 20px;
+	background-color: #36474f;
+	width:150px;
+	height: 150px;
+}
