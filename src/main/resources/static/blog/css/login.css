@@ -1,6 +1,23 @@
 body{
     background-color:transparent;
 }
+input{
+    height: 39px;
+    width: 67%;
+    margin: 6px 0px;
+    padding: 0px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    outline: none;
+    border: 1px solid transparent;
+    background: #f5f5fa;
+    border-radius: 10px;
+    transition: border-color .25s;
+}
+input[type="text"]:focus{
+    border:1px solid #0079FF;
+    box-shadow: 0 0 4px #0079FF;
+}
 .footer {
     position: fixed;
     bottom: 0;
@@ -8,13 +25,17 @@ body{
 .Copyright{
     margin: 0
 }
+.context{
+    text-align: center;
+    vertical-align: middle;
+}
 .container-main{
-    min-height: 852px;
+    min-height: 400px;
     position: relative;
 }
 .main{
-    width: 400px;
-    min-height: 500px;
+    width: 370px;
+    min-height: 430px;
     box-shadow:  0 2px 12px 0 rgba(0,0,0,.1);
     transition: 0.3s;
     border-radius: 10px;
@@ -23,6 +44,26 @@ body{
     color: #303133;
     /*定位卡片位置*/
     position: absolute;
-    left: 64%;
-    top: 17%;
+    left: 59%;
+    top: 13%;
+}
+.main_title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 12px;
+    color: #3d3d3d;
+}
+.register_style{
+    text-align: right;
+    margin-right: 65px;
+}
+.register_style>span{
+    color: blue;
+    cursor:pointer
+}
+.other{
+    margin: 9px 35px;
+    text-align: center;
+    border-top: solid #ACC0D8 1px;
 }
