@@ -2,6 +2,10 @@ package com.whkj.project.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 /**
  * 后台视图跳转控制器
@@ -28,14 +32,6 @@ public class viewController {
         return "blog/blog_admin/index";
     }
 
-
-    /**
-     * 登录页面测试编写
-     */
-    @GetMapping(value = "/logins")
-    public String logins(){
-        return "reLogin";
-    }
 
 
     /**

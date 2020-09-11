@@ -60,21 +60,33 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         log.info("已经进入用户认证···");
-        //获取用户输入用户名以及密码
-        String username = (String) token.getPrincipal();
-        String password = new String((char[]) token.getCredentials());
-        if(token == null || StringUtils.isBlank(username)){
-            log.error("Token令牌认证失败");
-            throw new AuthenticationException("Token令牌认证失败");
+
+        //判断是否是免密登录类型
+        if (token instanceof CustomeToken) {
+            CustomeToken token1 = (CustomeToken) token;
+            UserEntity user = userService.queryUserByName(token1.getUsername());
+            if (user != null) {
+                return new SimpleAuthenticationInfo(user.getUsername(), "", this.getClass().getSimpleName());
+            } else {
+                throw new IncorrectCredentialsException("用户名或密码错误！");
+            }
+        }else{
+            //获取用户输入用户名以及密码
+            String username = (String) token.getPrincipal();
+            String password = new String((char[]) token.getCredentials());
+            if(token == null || StringUtils.isBlank(username)){
+                log.error("Token令牌认证失败");
+                throw new AuthenticationException("Token令牌认证失败");
+            }
+            // 通过用户名到数据库查询用户信息
+            UserEntity user = userService.queryUserByName(username);
+            if (user == null||!StringUtils.equals(password,user.getPassword())) {
+                log.error("用户名或者密码验证失败！");
+                throw new IncorrectCredentialsException("用户名或密码错误！");
+                //throw new LockedAccountException("账号已被锁定,请联系管理员！");
+            }
+            return new SimpleAuthenticationInfo(user.getUsername(), password, ByteSource.Util.bytes(user.getUsername()), getName());
         }
-        // 通过用户名到数据库查询用户信息
-        UserEntity user = userService.queryUserByName(username);
-        if (user == null||!StringUtils.equals(password,user.getPassword())) {
-            log.error("用户名或者密码验证失败！");
-            throw new IncorrectCredentialsException("用户名或密码错误！");
-          //throw new LockedAccountException("账号已被锁定,请联系管理员！");
-        }
-        return new SimpleAuthenticationInfo(user.getUsername(), password, ByteSource.Util.bytes(user.getUsername()), getName());
     }
 }
 

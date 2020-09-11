@@ -46,6 +46,7 @@ input[type="text"]:focus{
     position: absolute;
     left: 59%;
     top: 13%;
+    padding-top: 40px;
 }
 .main_title{
     font-size: 24px;
@@ -66,4 +67,39 @@ input[type="text"]:focus{
     margin: 9px 35px;
     text-align: center;
     border-top: solid #ACC0D8 1px;
+    position: absolute;
+    bottom: 0;
+    left: 17%
+}
+.forget{
+    text-align: right;
+    padding-right: 63px;
+}
+.sub-style{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    background: #b7faff;
+}
+.sub-style:hover{
+    background: #a3e0ff;
+    cursor:pointer;
+}
+.code{
+    width: 120px;
+}
+.code-one, .code-tow{
+    display: inline;
+}
+.verification-code{
+    text-align: center;
+}
+.remember>input{
+    height: 10px;
+    width: 25px;
+}
+.remember{
+    float: left;
+    width: 126px;
+    display: inline;
 }
