@@ -1,17 +1,24 @@
 package com.whkj.project.controller;
 
 import com.whkj.project.common.service.ValidationOfCaptcha;
+import com.whkj.project.entity.UserEntity;
 import com.whkj.project.service.LoginLogService;
 import com.whkj.project.utils.MD5Util;
 import com.whkj.project.utils.RestResult;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.mgt.DefaultSecurityManager;
+import org.apache.shiro.session.Session;
+import org.apache.shiro.session.mgt.DefaultSessionManager;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 import java.util.Random;
 
 

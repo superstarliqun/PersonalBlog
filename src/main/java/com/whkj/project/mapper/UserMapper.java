@@ -13,4 +13,9 @@ public interface UserMapper {
     List<RoleEntity> findUserRole(String primaryPrincipal);
 
     List<MenuEntity> findUserMenu(String primaryPrincipal);
+
+    Integer findOpenIdExit(String openid);
+
+    Integer createLoginUser(UserEntity userEntity);
+
 }

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.whkj.project.mapper.UserMapper">
-
-    <select id="queryUserByName" resultType="com.whkj.project.entity.UserEntity">
+    <resultMap id="BaseResultMap" type="com.whkj.project.entity.UserEntity">
+        <id column="id" javaType="integer"  property="id"/>
+        <result column="user_account" jdbcType="VARCHAR" property="userAccount" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="openid" jdbcType="VARCHAR" property="openid" />
+        <result column="login_status" jdbcType="INTEGER" property="loginStatus" />
+        <result column="nike_name" jdbcType="VARCHAR" property="nikeName" />
+        <result column="profile" jdbcType="VARCHAR" property="profile" />
+        <result column="sex" jdbcType="INTEGER" property="sex" />
+    </resultMap>
+    <select id="queryUserByName" resultMap="BaseResultMap">
         SELECT
-            system_user.username,
+            system_user.user_account,
             system_user.`password`
         FROM
             `system_user`
         WHERE
-            system_user.username = #{username,jdbcType=VARCHAR}
+            system_user.user_account = #{user_account,jdbcType=VARCHAR}
+            AND login_status = 1
     </select>
     <select id="findUserRole" resultType="com.whkj.project.entity.RoleEntity">
         SELECT
@@ -19,7 +29,7 @@
             LEFT JOIN system_user_role_middle ON system_user_role_middle.user_id = system_user.id
             LEFT JOIN system_role ON system_role.id = system_user_role_middle.role_id
         WHERE
-            system_user.username = #{primaryPrincipal,jdbcType=VARCHAR}
+            system_user.user_account = #{primaryPrincipal,jdbcType=VARCHAR}
     </select>
     <select id="findUserMenu" resultType="com.whkj.project.entity.MenuEntity">
         SELECT
@@ -31,8 +41,53 @@
             LEFT JOIN system_role_menu_middle ON system_role_menu_middle.role_id = system_role.id
             LEFT JOIN system_menu ON system_menu.id = system_role_menu_middle.menu_id
         WHERE
-            system_user.username = #{primaryPrincipal,jdbcType=VARCHAR}
+            system_user.user_account = #{primaryPrincipal,jdbcType=VARCHAR}
     </select>
 
+    <select id="findOpenIdExit" resultType="java.lang.Integer">
+        SELECT
+                COUNT( 1)
+        FROM
+                `system_user`
+        WHERE
+                system_user.openid = #{openid,jdbcType=VARCHAR}
+    </select>
 
+    <insert id="createLoginUser">
+        insert into system_user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="openid != null">
+                openid,
+            </if>
+            <if test="loginStatus != null">
+                login_status,
+            </if>
+            <if test="profile != null and profile != ''">
+                profile,
+            </if>
+            <if test="sex != null">
+                sex,
+            </if>
+            <if test="nikeName != null and nikeName != ''">
+                nike_name,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="openid != null">
+                #{openid,jdbcType=VARCHAR},
+            </if>
+            <if test="loginStatus != null">
+                #{loginStatus,jdbcType=INTEGER},
+            </if>
+            <if test="profile != null and profile != ''">
+                #{profile,jdbcType=VARCHAR},
+            </if>
+            <if test="sex != null">
+               #{sex,jdbcType=INTEGER},
+            </if>
+            <if test="nikeName != null and nikeName != ''">
+                #{nikeName,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
 </mapper>

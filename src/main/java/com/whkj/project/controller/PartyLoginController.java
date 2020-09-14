@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Splitter;
 import com.whkj.project.common.authentication.CustomeToken;
 import com.whkj.project.common.handler.exception.MyException;
+import com.whkj.project.entity.UserEntity;
+import com.whkj.project.service.UserService;
 import com.whkj.project.utils.RestResult;
 import com.whkj.project.utils.sendUtils;
 import org.apache.shiro.SecurityUtils;
@@ -27,6 +29,9 @@ public class PartyLoginController {
 
     @Autowired
     RedisTemplate redisTemplate;
+
+    @Autowired
+    UserService userService;
 
     /**
      * 第三方qq登录返回地址
@@ -66,11 +71,23 @@ public class PartyLoginController {
             JSONObject jsonObject = JSONObject.parseObject(replace);
             Object openid = jsonObject.get("openid");
             String s1 = sendUtils.sendGet("https://graph.qq.com/user/get_user_info", "access_token=" + access_token + "&oauth_consumer_key=101580413&openid=" + openid);
-            JSONObject userinfo = JSONObject.parseObject(s1);
+            JSONObject userInfo = JSONObject.parseObject(s1);
 
             //获取QQ资料信息   若QQ用户第一次授权登录，应让他先进行自己网站的账号注册，注册成功以后就可以直接通过QQ进行登录
             //openid值：此值与用户QQ号一一对应
-            nickname = (String)userinfo.get("nickname");
+            nickname = (String)userInfo.get("nickname");
+            System.out.println(userInfo);
+            //查询openid是否存在如果存在则不用添加用户
+            Integer eixt = userService.findOpenIdExit((String)openid);
+            if(eixt==0){
+                UserEntity userEntity = new UserEntity();
+                userEntity.setOpenid((String)openid);
+                userEntity.setLoginStatus(2);
+                userEntity.setSex((Integer) userInfo.get("gender_type"));
+                userEntity.setNikeName((String) userInfo.get("nickname"));
+                userEntity.setProfile((String) userInfo.get("figureurl_qq_2"));
+                userService.createLoginUser(userEntity);
+            }
         }catch (Exception e){
             throw new MyException("第三方工具发送或接收异常！");
         }

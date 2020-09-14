@@ -21,4 +21,8 @@ public interface UserService{
     List<MenuEntity> findUserMenu(String primaryPrincipal);
 
     void generateImages(HttpServletRequest request, HttpServletResponse response) throws IOException;
+
+    Integer findOpenIdExit(String openid);
+
+    Integer createLoginUser(UserEntity userEntity);
 }

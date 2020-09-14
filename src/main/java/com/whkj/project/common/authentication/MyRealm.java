@@ -60,16 +60,9 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         log.info("已经进入用户认证···");
-
         //判断是否是免密登录类型
         if (token instanceof CustomeToken) {
-            CustomeToken token1 = (CustomeToken) token;
-            UserEntity user = userService.queryUserByName(token1.getUsername());
-            if (user != null) {
-                return new SimpleAuthenticationInfo(user.getUsername(), "", this.getClass().getSimpleName());
-            } else {
-                throw new IncorrectCredentialsException("用户名或密码错误！");
-            }
+            return new SimpleAuthenticationInfo("", "", this.getClass().getSimpleName());
         }else{
             //获取用户输入用户名以及密码
             String username = (String) token.getPrincipal();
@@ -85,7 +78,7 @@ public class MyRealm extends AuthorizingRealm {
                 throw new IncorrectCredentialsException("用户名或密码错误！");
                 //throw new LockedAccountException("账号已被锁定,请联系管理员！");
             }
-            return new SimpleAuthenticationInfo(user.getUsername(), password, ByteSource.Util.bytes(user.getUsername()), getName());
+            return new SimpleAuthenticationInfo(user.getUserAccount(), password, ByteSource.Util.bytes(user.getUserAccount()), getName());
         }
     }
 }

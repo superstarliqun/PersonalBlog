@@ -30,12 +30,19 @@ input[type="text"]:focus{
     vertical-align: middle;
 }
 .container-main{
-    min-height: 400px;
-    position: relative;
+    width: 100%;
+    overflow: auto;
+    display: -webkit-flex;
+    background:url("/blog/images/login_bg.jpg") no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 46px;
+    bottom: 37px;
+    left: 0;
 }
 .main{
     width: 370px;
-    min-height: 430px;
+    min-height: 465px;
     box-shadow:  0 2px 12px 0 rgba(0,0,0,.1);
     transition: 0.3s;
     border-radius: 10px;
@@ -44,9 +51,11 @@ input[type="text"]:focus{
     color: #303133;
     /*定位卡片位置*/
     position: absolute;
-    left: 59%;
-    top: 13%;
+    right: 10%;
+    top: 50%;
     padding-top: 40px;
+    background-color: white;
+    transform: translateY(-50%);
 }
 .main_title{
     font-size: 24px;

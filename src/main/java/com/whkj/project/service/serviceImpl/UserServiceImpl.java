@@ -14,13 +14,11 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import com.whkj.project.mapper.UserMapper;
 import com.whkj.project.service.UserService;
 
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -61,5 +59,15 @@ public class UserServiceImpl implements UserService{
         redisTemplate.opsForValue().set("captcha_"+request.getSession().getId(),captcha.text().toLowerCase(),1, TimeUnit.MINUTES);
         captcha.setCharType(code.getCharType());
         captcha.out(response.getOutputStream());
+    }
+
+    @Override
+    public Integer findOpenIdExit(String openid) {
+        return userMapper.findOpenIdExit(openid);
+    }
+
+    @Override
+    public Integer createLoginUser(UserEntity userEntity) {
+        return userMapper.createLoginUser(userEntity);
     }
 }
