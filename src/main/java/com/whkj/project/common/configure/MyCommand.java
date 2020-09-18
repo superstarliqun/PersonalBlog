@@ -38,7 +38,7 @@ public class MyCommand implements CommandLineRunner {
 
         System.out.println("开始自动加载指定的页面");
         try {
-            Runtime.getRuntime().exec("cmd   /c   start   http://localhost:8080/index");//可以指定自己的路径
+            Runtime.getRuntime().exec("cmd   /c   start   http://localhost:8080/blog/getArticleList");//可以指定自己的路径
         } catch (Exception ex) {
             ex.printStackTrace();
         }

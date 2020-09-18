@@ -32,17 +32,6 @@ public class viewController {
         return "blog/blog_admin/index";
     }
 
-
-
-    /**
-     * 个人简历页面
-     */
-    @GetMapping(value = "/blog")
-    public String blog(){
-        return "blog/blog_view/blog_center";
-    }
-
-
     /**
      *个人博客首页
      */
@@ -74,6 +63,15 @@ public class viewController {
     @GetMapping(value = "/product")
     public String product(){
         return "blog/blog_view/product_center";
+    }
+
+
+    /**
+     * 编辑博客视图
+     */
+    @GetMapping(value = "/editBlog")
+    public String editBlog(){
+        return "blog/blog_view/edit_blog";
     }
 
 

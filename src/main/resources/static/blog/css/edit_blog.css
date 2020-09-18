@@ -1,0 +1,59 @@
+.mainContent{
+    background: #ffffff;
+}
+
+.title_style{
+    border-radius: 4px;
+    background-color: #DDD;
+    width: 90%;
+    height: 33px;
+    padding: 21px 19px;
+    outline: none;
+    margin: 12px 5%;
+    font-size: 16px;
+}
+.tox-tinymce{
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 4px !important;
+    margin-bottom: 30px !important;
+}
+.button_div{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.button_style{
+    outline: none;
+    border-radius: 7px;
+    padding: 6px 12px;
+    line-height: 24px;
+    border: 1px solid #35A52C;
+    color: #35A52C;
+    font-size: 16px;
+    background-color: transparent;
+}
+.button_style:hover{
+    background-color: #35A52C;
+    color: whitesmoke;
+}
+select {
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("https://raw.githubusercontent.com/ourjs/static/gh-pages/2015/arrow.png") no-repeat scroll right center transparent;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+    padding: 0 15px;
+    height: 39px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #999;
+    outline: none;
+    width: 165px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+    display: none;
+}
