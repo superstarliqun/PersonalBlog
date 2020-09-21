@@ -191,18 +191,7 @@
 				触发页码数位置： Page//blog/js/jquery.z-pager./blog/js 64行
 			*/
 			console.log("当前页码数：" + currentPage);
-			this.gitArticle(currentPage);
-		}
-
-		function gitArticle(pageNum){
-			$.ajax({
-				type : "GET",
-				url : "/blog/getArticleList",
-				data: {pageNum: pageNum},
-				success : function(res) {
-					console.log(res)
-				}
-			});
+			// window.location.href = "/blog/getArticleList?pageNum="+currentPage;
 		}
 	</script>
 </html>
