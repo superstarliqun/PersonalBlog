@@ -168,6 +168,6 @@
             blog.fabulous
     FROM
             `blog`
-    ORDER BY blog.create_time
+    ORDER BY blog.create_time DESC
   </select>
 </mapper>

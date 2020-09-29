@@ -2,10 +2,7 @@ package com.whkj.project.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 
 /**
  * 后台视图跳转控制器
@@ -13,7 +10,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class viewController {
 
-
+    /*-------------------------------------------前台页面------------------------------------------------------*/
     /**
      * 登录页面
      * @return
@@ -48,6 +45,14 @@ public class viewController {
         return "blog/blog_view/feedback";
     }
 
+    /**
+     * 文章首页
+     * @return
+     */
+    @GetMapping(value = "/article")
+    public String article(){
+        return "blog/blog_view/blog_center";
+    }
 
     /**
      *个人博客首页
@@ -73,6 +78,20 @@ public class viewController {
     public String editBlog(){
         return "blog/blog_view/edit_blog";
     }
+
+
+
+
+    /*-------------------------------------------后台页面------------------------------------------------------*/
+    /**
+     * 文章列表管理页面
+     */
+    @GetMapping(value = "/admin/article")
+    public String adminArticle(){
+        return "/blog/blog_admin/tableArticle";
+    }
+
+
 
 
 

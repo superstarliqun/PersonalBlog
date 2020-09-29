@@ -8,9 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+/**
+ * 文章列表管理
+ */
 @RestController
 @RequestMapping(value = "/blog")
-public class BlogController {
+public class ArticleController {
 
 
     @Autowired
@@ -21,7 +24,7 @@ public class BlogController {
         ModelAndView mav = new ModelAndView();
         int i = blogService.insertSelective(blog);
         if(i>0){
-            mav.setViewName("redirect:/blog/getArticleList");
+            mav.setViewName("redirect:/article");
         }else{
             mav.addObject("msg", "博客添加失败");
         }
@@ -30,10 +33,8 @@ public class BlogController {
 
 
     @GetMapping(value = "/getArticleList")
-    public ModelAndView getArticleList(PageInfo pageInfo){
-        ModelAndView mav = new ModelAndView("blog/blog_view/blog_center");
+    public RestResult getArticleList(PageInfo pageInfo){
         PageInfo articleList = blogService.getArticleList(pageInfo);
-        mav.addObject("collects",articleList);
-        return mav;
+        return RestResult.ok(articleList);
     }
 }

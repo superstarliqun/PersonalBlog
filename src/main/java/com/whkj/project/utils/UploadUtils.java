@@ -17,15 +17,12 @@ public class UploadUtils {
 
     public static String getImgUrl(MultipartFile file){
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
-
-
-
         String url ="";
         try {
             //读取application.properties文件里面的数据
             Properties prop=new Properties();
-            prop.load(new InputStreamReader(Client.class.getClassLoader().getResourceAsStream("application.properties"), "UTF-8"));
-            url = (String)prop.get("pic.resource");
+            prop.load(new InputStreamReader(Client.class.getClassLoader().getResourceAsStream("application.yml"), "UTF-8"));
+            url = (String)prop.get("resource");
         }catch (Exception e){
             throw new MyException("字节流转化字符流异常，请联系管理员！");
         }
@@ -39,9 +36,9 @@ public class UploadUtils {
         if(!dir.exists()){
             dir.mkdirs();
         }
-        if(!extendedName.equals("jpg")&&!extendedName.equals("png")){
-            throw new MyException("上传文件只能是jpg或png格式！");
-        }
+//        if(!extendedName.equals("jpg")&&!extendedName.equals("png")){
+//            throw new MyException("上传文件只能是jpg或png格式！");
+//        }
         //判断上传文件是否为空
         if(!file.isEmpty()){
             try {

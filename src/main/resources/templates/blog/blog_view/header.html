@@ -1,0 +1,38 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div class="m-head" id="topbar">
+    <div class="m-head-nav">
+        <ul class="c-wrapper">
+            <li class="m-head-nav-logo">
+                <a href="#"><img src="/blog/images/vlogo.png" alt="LOGO">个人博客系统</a>
+            </li>
+            <li class="m-head-nav-item" th:class="${active=='home'?'m-head-nav-item active':'m-head-nav-item'}">
+                <a href="/home">首页</a>
+            </li>
+
+            <li class="m-head-nav-item" th:class="${active=='article'?'m-head-nav-item active':'m-head-nav-item'}">
+                <a href="/article">博客中心</a>
+            </li>
+
+            <li class="m-head-nav-item " th:class="${active=='curriculum'?'m-head-nav-item active':'m-head-nav-item'}">
+                <a href="/curriculum">个人履历</a>
+            </li>
+
+            <li class="m-head-nav-item" th:class="${active=='feedback'?'m-head-nav-item active':'m-head-nav-item'}">
+                <a href="/feedback">客户反馈</a>
+            </li>
+
+            <li class="m-head-nav-item" th:class="${active=='product'?'m-head-nav-item active':'m-head-nav-item'}">
+                <a href="/product">产品项目案例</a>
+            </li>
+
+            <li class="m-head-nav-right merchant-services">
+                <a href="#">商家服务</a>
+            </li>
+            <li class="m-head-nav-right creative-center">
+                <a href="/editBlog">创作中心</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</html>

@@ -555,10 +555,13 @@ footer {
 	background-color: #fcebea;
 	border: #e33e33 solid 1px;
 	color: #e33e33;
+	line-height: initial;
+	text-align: center;
+	display: inline-block;
 }
 .design-reprint{
-	background-color: #d5f8db;
-	border: #36e333 solid 1px;
-	color: #36e333;
+background-color: #d5f8db;
+border: #36e333 solid 1px;
+color: #36e333;
 }
 

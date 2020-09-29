@@ -1,5 +1,6 @@
 .clearfix {
 	clear: both;
+	cursor:pointer
 }
 .clearfix:after {
 	clear: both;
@@ -11,104 +12,30 @@
 .fl {
 	float: left;
 }
+.clearfix>img{
+	margin-right: 4px;
+	width: 17px;
+	padding-bottom: 2px;
+	padding-left: -18px;
+	margin-left: -51px;
+}
+.release_time{
+	margin-left: -30px !important;
+	float: left;
+	color: #807b7b;
+}
 
 .fr {
 	float: right;
 }
 
 .pager {
-	max-width: 800px;
 	text-align: center;
-	display: inline-block;
-	float: right;
 	padding: 9px;
-}
-
-.pager a {
-	cursor: pointer;
-}
-
-.pager a,
-.pager span {
-	/* 按钮内数字 */
-	width: 35px;
-	height: 35px;
-	border: 1px solid #EBEBEB;
-	margin-left: -1px;
-	color: #8a8a8a;
-	display: inline-block;
-	line-height: 34px;
-	float: left;
 	font-size: 15px;
-	text-decoration: none;
-	margin: 0 2px;
-	border-radius: 6px;
-}
-.pager a:hover,
-.pager span:hover {
-	border-color: #6f6f6f;
-	color: #6f6f6f;
-	position: relative;
-	z-index: 1;
 }
 
-.pager span.current {
-	background-color: #6f6f6f;
-	color: #fff;
-	border-color: #EBEBEB;
-	position: relative;
-	z-index: 1;
-}
 
-.pager .pg-first,
-.pager .pg-prev,
-.pager .pg-next,
-.pager .pg-last {
-	background: white url(../images/page_bg.jpg)  3px 5px no-repeat;
-}
-
-.pager .pg-first:hover,
-.pager .pg-prev:hover,
-.pager .pg-next:hover,
-.pager .pg-last:hover {
-	background: white url(../images/page_bg_hover.jpg)  8px 7px no-repeat;
-}
-
-.pager .pg-prev,
-.pager .pg-prev:hover {
-	background-position: 3px -24px;
-}
-
-.pager .pg-next,
-.pager .pg-next:hover {
-	background-position: -27px -23px;
-}
-
-.pager .pg-last,
-.pager .pg-last:hover {
-	background-position: -24px 4px;
-}
-
-.pager .pg-prev[disabled='true'],
-.pager .pg-prev[disabled='true']:hover {
-	cursor: default;
-	background-image: url(../images/page_bg.jpg);
-}
-
-.pager .pg-next[disabled='true'],
-.pager .pg-next[disabled='true']:hover {
-	cursor: default;
-	background-image: url(../images/page_bg.jpg);
-}
-
-.pager .pg-prev[disabled='true'],
-.pager .pg-next[disabled='true'] {
-	border-color: #eeeeee;
-}
-
-.pager span.els {
-	border-color: transparent;
-}
 
 .pagerHtmlWrap {
 	width: 800px;
@@ -134,7 +61,4 @@
 	width: 25%;
 	text-align: left;
 	margin: 0;
-}
-.page-hear{
-	
 }

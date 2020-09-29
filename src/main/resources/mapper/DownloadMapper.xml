@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.whkj.project.mapper.DownloadMapper">
+  <resultMap id="BaseResultMap" type="com.whkj.project.entity.Download">
+    <!--@mbg.generated-->
+    <!--@Table download-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="original_name" jdbcType="VARCHAR" property="originalName" />
+    <result column="file_address" jdbcType="VARCHAR" property="fileAddress" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="file_type" jdbcType="VARCHAR" property="fileType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, original_name, file_address, create_time, user_id, file_type
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from download
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <!--@mbg.generated-->
+    delete from download
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insertSelective" parameterType="com.whkj.project.entity.Download">
+    <!--@mbg.generated-->
+    insert into download
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="originalName != null">
+        original_name,
+      </if>
+      <if test="fileAddress != null">
+        file_address,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="fileType != null">
+        file_type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="originalName != null">
+        #{originalName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileAddress != null">
+        #{fileAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="fileType != null">
+        #{fileType,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.whkj.project.entity.Download">
+    <!--@mbg.generated-->
+    update download
+    <set>
+      <if test="originalName != null">
+        original_name = #{originalName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileAddress != null">
+        file_address = #{fileAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="fileType != null">
+        file_type = #{fileType,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <select id="findAll" resultMap="BaseResultMap">
+    SELECT
+        download.id,
+        download.original_name,
+        download.file_address,
+        download.create_time,
+        download.user_id,
+        download.file_type
+    FROM
+        `download`
+    ORDER BY download.create_time DESC
+  </select>
+</mapper>

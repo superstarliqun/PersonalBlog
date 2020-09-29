@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<meta charset="utf-8">
 		<title>feedback</title>
@@ -11,46 +11,10 @@
 		<link rel="stylesheet" type="text/css" href="blog/css/fb.css"/>
 	</head>
 	<body>
-		
-		<!-- head  start -->
-		<div class="m-head">
-			<div class="m-head-nav">
-				<ul class="c-wrapper">
-					<li class="m-head-nav-logo">
-						<a href="#"><img src="blog/images/vlogo.png" alt="LOGO">个人博客系统</a>
-					</li>
-		
-					<li class="m-head-nav-item">
-						<a href="home_page.html">首页</a>
-					</li>
-		
-					<li class="m-head-nav-item">
-						<a href="blog_center.html">博客中心</a>
-					</li>
-		
-					<li class="m-head-nav-item">
-						<a href="curriculum_vitae.html">个人履历</a>
-					</li>
-					
-					<li class="m-head-nav-item   active">
-						<a href="feedback.html">客户反馈</a>
-					</li>
-		
-					<li class="m-head-nav-item ">
-						<a href="product_center.html">产品项目案例</a>
-					</li>
-		
-					<li class="m-head-nav-right merchant-services">
-						<a href="#">商家服务</a>
-					</li>
-					<li class="m-head-nav-right creative-center">
-						<a >创作中心</a>
-					</li>
-		
-				</ul>
-			</div>
-		</div>
-		<!-- head  end -->
+
+	<!-- head  start -->
+	<div th:replace="blog/blog_view/header::#topbar(active='feedback')"></div>
+	<!-- head  end -->
 		
 		<!-- content start -->
 		<div class="mainContent">

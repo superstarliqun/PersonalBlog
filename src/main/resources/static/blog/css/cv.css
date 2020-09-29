@@ -47,7 +47,7 @@ body {
     width: 25%;
 }
 .vs-col-4 {
-    width: 16.66667%%;
+    width: 16.66667%;
 }
 [class*=vs-col-] {
     float: left;

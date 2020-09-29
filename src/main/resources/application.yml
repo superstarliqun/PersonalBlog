@@ -61,4 +61,4 @@ logging:
   config:
    classpath: logback.xml
 pic:
-  resource: D:\resource
+  resource: D:/resource/
