@@ -1,4 +1,4 @@
-package com.whkj.project.controller;
+package com.whkj.project.controller.frontend;
 
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Splitter;

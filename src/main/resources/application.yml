@@ -68,5 +68,6 @@ pagehelper:
 logging:
   config:
    classpath: logback.xml
+# 作为备注但是用不到
 pic:
   resource: D:/resource/

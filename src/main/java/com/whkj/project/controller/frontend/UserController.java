@@ -1,4 +1,4 @@
-package com.whkj.project.controller;
+package com.whkj.project.controller.frontend;
 
 import com.whkj.project.service.UserService;
 import com.whkj.project.utils.RestResult;
