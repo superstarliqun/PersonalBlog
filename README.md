@@ -6,7 +6,7 @@ Personal blog site records life growth skills（个人博客网站记录生活�
 
 Personal blog个人博客生活记录平台是一个私人的博客平台系统，具有前、后台两方登录功能
 
-演示地址：[http://takeing.cn](http://takeing.cn/login)
+演示地址：[https://wuliqun.cn/](https://wuliqun.cn/)
 
 ## 2.技术选型
 

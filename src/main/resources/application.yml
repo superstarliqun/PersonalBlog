@@ -50,6 +50,14 @@ mybatis:
   type-aliases-package: com.whkj.project.mapper
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#minio
+minio:
+  bucket: home
+  host: http://82.156.171.228:9001
+  url: ${minio.host}/${minio.bucket}/
+  accessKey: miniowlq
+  secretKey: kaifa123456
+
 #pagehelper分页插件
 pagehelper:
   helperDialect: mysql

@@ -138,6 +138,7 @@ public class ShiroConfig {
      */
     private CookieRememberMeManager rememberMeManager() {
         CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
+        cookieRememberMeManager.setCipherKey(Base64.decode("6ZmI6I2j5Y+R5aSn5ZOlAA=="));
         cookieRememberMeManager.setCookie(rememberMeCookie());
         // rememberMe cookie 加密的密钥
         String encryptKey = "shiro_key";
