@@ -1,12 +1,18 @@
-package com.whkj.project.common.authentication;
+package com.whkj.project.common.shiro.utils;
 
 import org.apache.shiro.authc.UsernamePasswordToken;
-
 /**
- * 自定义token 继承UsernamePasswordToken,
- *  账号密码登陆（password） 和 免密登陆（nopassword）
+ * @ClassName CustomeToken.java
+ * @Description
+ *   自定义token 继承UsernamePasswordToken,
+ *   账号密码登陆（password） 和 免密登陆（nopassword）
+ * @Author wuliqun
+ * @Date 2022/5/12 11:10
+ * @Version 1.0
  */
+
 public class CustomeToken extends UsernamePasswordToken {
+
     private static final long serialVersionUID = -2564928913725078138L;
 
     private LoginType type;
@@ -14,12 +20,6 @@ public class CustomeToken extends UsernamePasswordToken {
 
     public CustomeToken() {
         super();
-    }
-
-
-    public CustomeToken(String username, String password, LoginType type, boolean rememberMe, String host) {
-        super(username, password, rememberMe, host);
-        this.type = type;
     }
 
     /**

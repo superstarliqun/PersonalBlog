@@ -1,7 +1,14 @@
-package com.whkj.project.common.properties;
+package com.whkj.project.utils;
 
 import lombok.Data;
 
+/**
+ * @ClassName ValidateCodeProperties.java
+ * @Description  登录页面验证码样式
+ * @Author wuliqun
+ * @Date 2022/5/12 11:25
+ * @Version 1.0
+ */
 @Data
 public class ValidateCodeProperties {
 

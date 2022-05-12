@@ -2,11 +2,10 @@ package com.whkj.project.controller.frontend;
 
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Splitter;
-import com.whkj.project.common.authentication.CustomeToken;
+import com.whkj.project.common.shiro.utils.CustomeToken;
 import com.whkj.project.common.handler.exception.MyException;
 import com.whkj.project.entity.UserEntity;
 import com.whkj.project.service.UserService;
-import com.whkj.project.utils.RestResult;
 import com.whkj.project.utils.sendUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;

@@ -1,4 +1,4 @@
-package com.whkj.project.common.authentication;
+package com.whkj.project.common.shiro.utils;
 
 public enum LoginType {
     PASSWORD("password"),

@@ -2,7 +2,7 @@ package com.whkj.project.service.serviceImpl;
 
 import com.wf.captcha.SpecCaptcha;
 import com.wf.captcha.base.Captcha;
-import com.whkj.project.common.properties.ValidateCodeProperties;
+import com.whkj.project.utils.ValidateCodeProperties;
 import com.whkj.project.entity.MenuEntity;
 import com.whkj.project.entity.RoleEntity;
 import com.whkj.project.entity.UserEntity;

@@ -1,14 +1,16 @@
-package com.whkj.project.common.authentication;
+package com.whkj.project.common.shiro;
 
-import com.whkj.project.common.filter.AuthFilter;
 import lombok.RequiredArgsConstructor;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.session.mgt.SessionManager;
+import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.apache.shiro.web.servlet.SimpleCookie;
+import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,14 +22,17 @@ import java.util.Arrays;
 import java.util.LinkedHashMap;
 
 /**
- * Shiro 配置类
- *
- * @author SUPERSTARLIQUN
+ * @ClassName ShiroConfig.java
+ * @Description  Shiro 配置类
+ * @Author wuliqun
+ * @Date 2022/5/12 11:14
+ * @Version 1.0
  */
 @Configuration
 @RequiredArgsConstructor
 public class ShiroConfig {
 
+    //1创建shiroFilter  负责拦截请求
     @Bean
     public ShiroFilterFactoryBean shiroFilterFactoryBean(SecurityManager securityManager) {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
@@ -40,6 +45,7 @@ public class ShiroConfig {
 
         LinkedHashMap<String, String> filterMap = new LinkedHashMap<>();
         // 设置免认证 url
+        filterMap.put("/login", "anon");
         filterMap.put("/user/generateImages", "anon");
         filterMap.put("/getQQUrl", "anon");
         filterMap.put("/minio/*", "anon");
@@ -48,49 +54,40 @@ public class ShiroConfig {
         return shiroFilterFactoryBean;
     }
 
+    //2.创建安全管理器
     @Bean(name="securityManager")
-    public SecurityManager securityManager(MyRealm myRealm) {
+    public SecurityManager securityManager(MyRealm myRealm, SessionManager sessionManager) {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(myRealm);
-        securityManager.setRememberMeManager(rememberMeManager());
+        securityManager.setSessionManager(sessionManager);
         return securityManager;
     }
 
+    // 3.创建自定义Realm
     @Bean(name="MyRealm")
     public MyRealm getRealm(){
         return new MyRealm();
     }
 
 
-//
-    /**
-     * rememberMe cookie 效果是重开浏览器后无需重新登录
-     *
-     * @return SimpleCookie
-     */
-    private SimpleCookie rememberMeCookie() {
-        // 设置 cookie 名称，对应 login.html 页面的 <input type="checkbox" name="rememberMe"/>
-        SimpleCookie cookie = new SimpleCookie("rememberMe");
-        // 设置 cookie 的过期时间，单位为秒，这里为一天
-        cookie.setMaxAge(86400);
-        return cookie;
+    //4.创建sessionManager
+    @Bean("sessionManager")
+    public DefaultWebSessionManager sessionManager() {
+        DefaultWebSessionManager defaultWebSessionManager = new DefaultWebSessionManager();
+        //设置session过期时间3600s
+        defaultWebSessionManager.setGlobalSessionTimeout(3600000L);
+        return defaultWebSessionManager;
     }
 
+
     /**
-     * cookie管理对象
-     *
-     * @return CookieRememberMeManager
+     * Shiro生命周期处理器:
+     * 用于在实现了Initializable接口的Shiro bean初始化时调用Initializable接口回调(例如:UserRealm)
+     * 在实现了Destroyable接口的Shiro bean销毁时调用 Destroyable接口回调(例如:DefaultSecurityManager)
      */
-    private CookieRememberMeManager rememberMeManager() {
-        CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
-        cookieRememberMeManager.setCipherKey(Base64.decode("6ZmI6I2j5Y+R5aSn5ZOlAA=="));
-        cookieRememberMeManager.setCookie(rememberMeCookie());
-        // rememberMe cookie 加密的密钥
-        String encryptKey = "shiro_key";
-        byte[] encryptKeyBytes = encryptKey.getBytes(StandardCharsets.UTF_8);
-        String rememberKey = Base64Utils.encodeToString(Arrays.copyOf(encryptKeyBytes, 16));
-        cookieRememberMeManager.setCipherKey(Base64.decode(rememberKey));
-        return cookieRememberMeManager;
+    @Bean
+    public LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {
+        return new LifecycleBeanPostProcessor();
     }
 
     /**
@@ -105,6 +102,10 @@ public class ShiroConfig {
         return authorizationAttributeSourceAdvisor;
     }
 
+    /**
+     * 实现spring的自动代理
+     * @return
+     */
     @Bean
     public static DefaultAdvisorAutoProxyCreator getDefaultAdvisorAutoProxyCreator(){
         return new DefaultAdvisorAutoProxyCreator();
