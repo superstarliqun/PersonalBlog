@@ -2,7 +2,6 @@ package com.whkj.project.controller.frontend;
 
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Splitter;
-import com.whkj.project.common.shiro.utils.CustomeToken;
 import com.whkj.project.common.handler.exception.MyException;
 import com.whkj.project.entity.UserEntity;
 import com.whkj.project.service.UserService;
@@ -92,8 +91,6 @@ public class PartyLoginController {
         }
         //免密登录
         Subject subject = SecurityUtils.getSubject();
-        CustomeToken ssoToken = new CustomeToken(nickname);
-        subject.login(ssoToken);
         return "redirect:/index";
     }
 

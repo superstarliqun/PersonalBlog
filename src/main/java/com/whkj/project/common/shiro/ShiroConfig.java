@@ -1,74 +1,62 @@
 package com.whkj.project.common.shiro;
 
-import lombok.RequiredArgsConstructor;
-import org.apache.shiro.codec.Base64;
-import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.realm.Realm;
 import org.apache.shiro.session.mgt.SessionManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
-import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
-import org.apache.shiro.web.servlet.SimpleCookie;
 import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
-import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.util.Base64Utils;
 
 import javax.servlet.Filter;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 /**
- * @ClassName ShiroConfig.java
- * @Description  Shiro 配置类
- * @Author wuliqun
- * @Date 2022/5/12 11:14
- * @Version 1.0
+ * shiro配置
  */
 @Configuration
-@RequiredArgsConstructor
 public class ShiroConfig {
 
     //1创建shiroFilter  负责拦截请求
     @Bean
-    public ShiroFilterFactoryBean shiroFilterFactoryBean(SecurityManager securityManager) {
+    public ShiroFilterFactoryBean getShiroFilterFactoryBean(DefaultWebSecurityManager securityManager) {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
-        // 设置 securityManager
+        //给filter设置安全管理器
         shiroFilterFactoryBean.setSecurityManager(securityManager);
-
-        LinkedHashMap<String, Filter> myFilter = new LinkedHashMap<>();
-        myFilter.put("auth", new AuthFilter());
-        shiroFilterFactoryBean.setFilters(myFilter);
-
-        LinkedHashMap<String, String> filterMap = new LinkedHashMap<>();
-        // 设置免认证 url
+        Map<String, Filter> filter = new HashMap<>();
+        filter.put("oauth2", new AuthFilter());
+        shiroFilterFactoryBean.setFilters(filter);
+        //配置系统受限资源
+        Map<String, String> filterMap = new LinkedHashMap<>();
         filterMap.put("/login", "anon");
-        filterMap.put("/user/generateImages", "anon");
-        filterMap.put("/getQQUrl", "anon");
-        filterMap.put("/minio/*", "anon");
-        filterMap.put("/**", "auth");
+        filterMap.put("/**", "oauth2");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
+
         return shiroFilterFactoryBean;
     }
 
     //2.创建安全管理器
-    @Bean(name="securityManager")
-    public SecurityManager securityManager(MyRealm myRealm, SessionManager sessionManager) {
-        DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
-        securityManager.setRealm(myRealm);
-        securityManager.setSessionManager(sessionManager);
-        return securityManager;
+    @Bean("securityManager")
+    public DefaultWebSecurityManager getDefaultWebSecurityManager(@Qualifier("realm") Realm realm, SessionManager sessionManager) {
+        DefaultWebSecurityManager defaultWebSecurityManager = new DefaultWebSecurityManager();
+        //给安全管理器设置realm
+        defaultWebSecurityManager.setRealm(realm);
+        //给安全管理器设置sessionManager
+        defaultWebSecurityManager.setSessionManager(sessionManager);
+        return defaultWebSecurityManager;
     }
 
-    // 3.创建自定义Realm
-    @Bean(name="MyRealm")
-    public MyRealm getRealm(){
-        return new MyRealm();
+    //3.创建自定义realm
+    @Bean("realm")
+    public Realm getRealm() {
+        CustomerRealm customerRealm = new CustomerRealm();
+        return customerRealm;
     }
-
 
     //4.创建sessionManager
     @Bean("sessionManager")
@@ -78,7 +66,6 @@ public class ShiroConfig {
         defaultWebSessionManager.setGlobalSessionTimeout(3600000L);
         return defaultWebSessionManager;
     }
-
 
     /**
      * Shiro生命周期处理器:
@@ -91,23 +78,13 @@ public class ShiroConfig {
     }
 
     /**
-     * 开启代码权限注释注解
-     * @param securityManager
-     * @return
+     * 启用shrio授权注解拦截方式，AOP式方法级权限检查
      */
     @Bean
-    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(SecurityManager securityManager) {
+    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(DefaultWebSecurityManager securityManager) {
         AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
         authorizationAttributeSourceAdvisor.setSecurityManager(securityManager);
         return authorizationAttributeSourceAdvisor;
     }
 
-    /**
-     * 实现spring的自动代理
-     * @return
-     */
-    @Bean
-    public static DefaultAdvisorAutoProxyCreator getDefaultAdvisorAutoProxyCreator(){
-        return new DefaultAdvisorAutoProxyCreator();
-    }
 }

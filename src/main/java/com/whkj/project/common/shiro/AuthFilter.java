@@ -3,13 +3,13 @@ package com.whkj.project.common.shiro;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.whkj.project.common.shiro.utils.JwtToken;
 import com.whkj.project.utils.RestResult;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.web.filter.authc.AuthenticatingFilter;
 import org.apache.shiro.web.util.WebUtils;
 import org.springframework.http.HttpStatus;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.ServletRequest;
@@ -21,13 +21,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @ClassName AuthFilter.java
- * @Description  Shiro自定义auth过滤器
- * @Author wuliqun
- * @Date 2022/5/12 11:20
- * @Version 1.0
+ * 自定义过滤器
  */
-
 public class AuthFilter extends AuthenticatingFilter {
 
 
@@ -96,6 +91,7 @@ public class AuthFilter extends AuthenticatingFilter {
 
     /**
      * 执行认证
+     *
      * @param request
      * @param response
      * @return
@@ -149,11 +145,10 @@ public class AuthFilter extends AuthenticatingFilter {
         httpServletResponse.setContentType("application/json; charset=utf-8");
         try (PrintWriter out = httpServletResponse.getWriter()) {
             ObjectMapper objectMapper = new ObjectMapper();
-            String data = objectMapper.writeValueAsString(RestResult.build(401, msg));
+            String data = objectMapper.writeValueAsString(RestResult.build(401,msg));
             out.append(data);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
 }

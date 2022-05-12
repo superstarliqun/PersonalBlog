@@ -37,7 +37,7 @@ public class LoginController {
                         @RequestParam(value = "captcha") String captcha,
                         HttpServletRequest request){
         String data = (String) redisTemplate.opsForValue().get("captcha_" + request.getSession().getId());
-//        validation.check(captcha,data,request);
+        validation.check(captcha,data,request);
         Subject subject = SecurityUtils.getSubject();
         password = MD5Util.encrypt(username.toLowerCase(), password);
         UsernamePasswordToken token = new UsernamePasswordToken(username, password,rememberMe);
