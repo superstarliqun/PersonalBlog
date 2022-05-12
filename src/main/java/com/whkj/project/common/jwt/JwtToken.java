@@ -1,4 +1,4 @@
-package com.whkj.project.common.shiro.utils;
+package com.whkj.project.common.jwt;
 
 import org.apache.shiro.authc.AuthenticationToken;
 

@@ -1,7 +1,6 @@
 package com.whkj.project.common.shiro;
 
-import com.whkj.project.common.shiro.utils.CurrentCredentialsMatcher;
-import com.whkj.project.common.shiro.utils.JwtToken;
+import com.whkj.project.common.jwt.JwtToken;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;

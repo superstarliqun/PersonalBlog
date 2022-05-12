@@ -1,7 +1,7 @@
 package com.whkj.project.common.shiro;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.whkj.project.common.shiro.utils.JwtToken;
+import com.whkj.project.common.jwt.JwtToken;
 import com.whkj.project.utils.RestResult;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
