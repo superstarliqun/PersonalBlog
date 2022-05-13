@@ -21,8 +21,6 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-  main:
-    allow-bean-definition-overriding: true
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -50,6 +48,16 @@ minio:
   url: ${minio.host}/${minio.bucket}/
   accessKey: miniowlq
   secretKey: kaifa123456
+#jwt
+jwt:
+  header: Authorization
+  # 令牌前缀
+  token-start-with: Bearer
+  # 使用Base64对该令牌进行编码
+  base64-secret: JXU0RTJEJXU1NkZELSV1NTMxNyV1NEVBQy0ldTdBMEIldTVFOEYldTU0NTgtJXU0RTJBJXU0RUJBJXU1MzVBJXU1QkEyLXN1cGVyc3RhcmxpcXVu
+  # 令牌过期时间 此处单位/毫秒
+  token-validity-in-seconds: 14400000
+
 
 #pagehelper分页插件
 pagehelper:

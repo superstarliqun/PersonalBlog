@@ -2,12 +2,9 @@ package com.whkj.project.controller.frontend;
 
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Splitter;
-import com.whkj.project.common.handler.exception.MyException;
 import com.whkj.project.entity.UserEntity;
 import com.whkj.project.service.UserService;
 import com.whkj.project.utils.sendUtils;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
@@ -87,10 +84,8 @@ public class PartyLoginController {
                 userService.createLoginUser(userEntity);
             }
         }catch (Exception e){
-            throw new MyException("第三方工具发送或接收异常！");
+            throw new RuntimeException("第三方工具发送或接收异常！");
         }
-        //免密登录
-        Subject subject = SecurityUtils.getSubject();
         return "redirect:/index";
     }
 

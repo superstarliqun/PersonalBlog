@@ -1,7 +1,6 @@
 package com.whkj.project.utils;
 
 import ch.qos.logback.core.net.server.Client;
-import com.whkj.project.common.handler.exception.MyException;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -24,7 +23,7 @@ public class UploadUtils {
             prop.load(new InputStreamReader(Client.class.getClassLoader().getResourceAsStream("application.yml"), "UTF-8"));
             url = (String)prop.get("resource");
         }catch (Exception e){
-            throw new MyException("字节流转化字符流异常，请联系管理员！");
+            throw new RuntimeException("字节流转化字符流异常，请联系管理员！");
         }
         //获取文件名称
         String fileName = file.getOriginalFilename();
@@ -46,10 +45,10 @@ public class UploadUtils {
                 file.transferTo(f);
             }catch (Exception e){
                 e.printStackTrace();
-                throw new MyException("文件上传失败，请联系管理管理员！");
+                throw new RuntimeException("文件上传失败，请联系管理管理员！");
             }
         }else{
-            throw new MyException("未接收到文件，请重新尝试！");
+            throw new RuntimeException("未接收到文件，请重新尝试！");
         }
         return "/upload/"+newFileName;
     }

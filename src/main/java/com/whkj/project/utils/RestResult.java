@@ -1,13 +1,21 @@
 package com.whkj.project.utils;
 
+import java.io.PrintWriter;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.slf4j.Slf4j;
+
+import javax.servlet.ServletResponse;
 
 /**
  * 自定义响应结构
  */
+@Slf4j
 public class RestResult {
 
     // 定义jackson对象
@@ -180,6 +188,30 @@ public class RestResult {
         } catch (Exception e) {
             return null;
         }
+    }
+
+    public static void responseJson(ServletResponse response, Map<String, Object> resultMap){
+        PrintWriter out = null;
+        try {
+            response.setCharacterEncoding("UTF-8");
+            response.setContentType("application/json");
+            out = response.getWriter();
+            out.println(JSON.toJSONString(resultMap));
+        } catch (Exception e) {
+            log.error("【JSON输出异常】"+e);
+        }finally{
+            if(out!=null){
+                out.flush();
+                out.close();
+            }
+        }
+    }
+
+    public static Map<String, Object> resultCode(Integer code,String msg){
+        Map<String, Object> resultMap = new HashMap<>();
+        resultMap.put("message",msg);
+        resultMap.put("code",code);
+        return resultMap;
     }
 
 }
