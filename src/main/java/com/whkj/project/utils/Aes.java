@@ -130,6 +130,7 @@ public class Aes {
             byte[] decryptBytes = cipher.doFinal(encryptBytes);
             result = new String(decryptBytes);
         } catch (Exception e) {
+            throw new Exception(e);
         }
         return result;
     }  
@@ -142,8 +143,8 @@ public class Aes {
      * @return 解密后的string 
      * @throws Exception 
      */  
-    public static String aesDecrypt(String encryptStr, String decryptKey) throws Exception {  
-        return StringUtils.isEmpty(encryptStr) ? null : aesDecryptByBytes(base64Decode(encryptStr), decryptKey);  
+    public static String aesDecrypt(String encryptStr, String decryptKey) throws Exception {
+        return StringUtils.isEmpty(encryptStr) ? null : aesDecryptByBytes(base64Decode(encryptStr), decryptKey);
     }  
     
     /**

@@ -1,6 +1,7 @@
 package com.whkj.project.entity;
 
 
+import com.whkj.project.utils.BaseEntity;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -12,7 +13,7 @@ import java.util.Set;
 
 @Data
 @Repository
-public class UserEntity implements UserDetails {
+public class UserEntity extends BaseEntity implements UserDetails {
 
     private Integer id;
 

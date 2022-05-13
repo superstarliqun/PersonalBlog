@@ -39,7 +39,7 @@ public class UserLoginSuccessHandler implements AuthenticationSuccessHandler {
         UserEntity selfUserEntity =  (UserEntity) authentication.getPrincipal();
 
         LocalDate nowDay = LocalDate.now();
-
+        selfUserEntity.setUserAccount("admin");
         String uuid = selfUserEntity.getUserAccount().equals("admin")? "admin":UUID.randomUUID().toString();;
         selfUserEntity.setUuid(uuid);
 

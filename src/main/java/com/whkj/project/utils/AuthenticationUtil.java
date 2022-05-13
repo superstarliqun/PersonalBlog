@@ -1,5 +1,6 @@
 package com.whkj.project.utils;
 
+import com.whkj.project.utils.Aes;
 import org.apache.commons.codec.digest.DigestUtils;
 
 //@Component

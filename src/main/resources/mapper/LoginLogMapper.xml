@@ -87,4 +87,8 @@
       <include refid="Base_Column_List" />
       from login_log
     </select>
+
+  <select id="findLoginUserExist" resultType="com.whkj.project.entity.UserEntity">
+        SELECT * FROM `system_user` WHERE user_account = #{userName} LIMIT 1
+  </select>
 </mapper>

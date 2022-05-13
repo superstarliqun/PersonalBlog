@@ -1,6 +1,7 @@
 package com.whkj.project.service;
 
 import com.whkj.project.entity.LoginLog;
+import com.whkj.project.entity.UserEntity;
 
 import java.util.List;
 
@@ -20,5 +21,4 @@ public interface LoginLogService{
     int updateByPrimaryKey(LoginLog record);
 
     List<LoginLog> getLoginLog();
-
 }

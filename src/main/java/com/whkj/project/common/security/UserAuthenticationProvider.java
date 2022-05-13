@@ -1,7 +1,10 @@
 package com.whkj.project.common.security;
 
 import com.whkj.project.entity.UserEntity;
+import com.whkj.project.mapper.LoginLogMapper;
+import com.whkj.project.service.LoginLogService;
 import com.whkj.project.utils.AuthenticationUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -24,20 +27,27 @@ import java.util.Set;
 @Component
 public class UserAuthenticationProvider implements AuthenticationProvider {
 
+
+    @Autowired
+    private LoginLogMapper loginLogMapper;
+
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
 
         String userName = (String) authentication.getPrincipal();
         // 获取表单中输入的密码
         String password = (String) authentication.getCredentials();
-        password = AuthenticationUtil.getPasswordAESde(password);
+//        password = AuthenticationUtil.getPasswordAESde(password);
+
         // 查询用户是否存在
-        UserEntity userInfo = null;
+        UserEntity userInfo = loginLogMapper.findLoginUserExist(userName);
+
         if (userInfo == null) {
             throw new UsernameNotFoundException("用户名不存在");
         }
         // 我们还要判断密码是否正确，这里我们的密码使用BCryptPasswordEncoder进行加密的
-        if (!userInfo.getPassword().equals(AuthenticationUtil.getPassword(password))) {
+        if (!userInfo.getPassword().equals(password)) {
+//        if (!userInfo.getPassword().equals(AuthenticationUtil.getPassword(password))) {
             throw new BadCredentialsException("密码不正确");
         }
 

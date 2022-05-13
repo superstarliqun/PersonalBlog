@@ -1,6 +1,7 @@
 package com.whkj.project.mapper;
 
 import com.whkj.project.entity.LoginLog;
+import com.whkj.project.entity.UserEntity;
 
 import java.util.List;
 
@@ -19,4 +20,5 @@ public interface LoginLogMapper {
 
     List<LoginLog> getLoginLog();
 
+    UserEntity findLoginUserExist(String userName);
 }
