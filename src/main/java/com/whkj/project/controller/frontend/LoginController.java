@@ -20,8 +20,7 @@ public class LoginController {
     @Autowired
     RedisTemplate redisTemplate;
 
-    @Autowired
-    ValidationOfCaptcha validation;
+
 
     /**
      * 登录
@@ -33,8 +32,6 @@ public class LoginController {
                         @RequestParam(value = "rememberMe",defaultValue = "false") Boolean rememberMe,
                         @RequestParam(value = "captcha") String captcha,
                         HttpServletRequest request){
-//        String data = (String) redisTemplate.opsForValue().get("captcha_" + request.getSession().getId());
-//        validation.check(captcha,data,request);
 
     }
 

@@ -34,10 +34,9 @@ public class UserAuthenticationProvider implements AuthenticationProvider {
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
 
+        // 获取表单中的用户名以及密码
         String userName = (String) authentication.getPrincipal();
-        // 获取表单中输入的密码
         String password = (String) authentication.getCredentials();
-//        password = AuthenticationUtil.getPasswordAESde(password);
 
         // 查询用户是否存在
         UserEntity userInfo = loginLogMapper.findLoginUserExist(userName);
@@ -45,9 +44,9 @@ public class UserAuthenticationProvider implements AuthenticationProvider {
         if (userInfo == null) {
             throw new UsernameNotFoundException("用户名不存在");
         }
+        System.out.println(AuthenticationUtil.getPassword(password));
         // 我们还要判断密码是否正确，这里我们的密码使用BCryptPasswordEncoder进行加密的
-        if (!userInfo.getPassword().equals(password)) {
-//        if (!userInfo.getPassword().equals(AuthenticationUtil.getPassword(password))) {
+        if (!userInfo.getPassword().equals(AuthenticationUtil.getPassword(password))) {
             throw new BadCredentialsException("密码不正确");
         }
 

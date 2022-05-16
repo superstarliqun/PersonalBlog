@@ -1,18 +1,19 @@
 package com.whkj.project.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.whkj.project.utils.BaseEntity;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;
 
-import java.io.Serializable;
 import java.util.Collection;
 import java.util.Set;
 
 @Data
 @Repository
+@JsonIgnoreProperties({"enabled","accountNonExpired", "accountNonLocked", "credentialsNonExpired", "authorities","username"})
 public class UserEntity extends BaseEntity implements UserDetails {
 
     private Integer id;

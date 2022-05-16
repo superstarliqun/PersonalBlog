@@ -37,20 +37,21 @@ public class UserLoginSuccessHandler implements AuthenticationSuccessHandler {
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication){
         // 组装JWT
         UserEntity selfUserEntity =  (UserEntity) authentication.getPrincipal();
-
-        LocalDate nowDay = LocalDate.now();
-        selfUserEntity.setUserAccount("admin");
-        String uuid = selfUserEntity.getUserAccount().equals("admin")? "admin":UUID.randomUUID().toString();;
+        String uuid = selfUserEntity.getUserAccount().equals("admin")? "admin":UUID.randomUUID().toString();
         selfUserEntity.setUuid(uuid);
 
-        String key = AuthenticationUtil.getTokenCode(selfUserEntity.getUsername());
+
+        // 处理登录日志
+
+
+        String key = AuthenticationUtil.getTokenCode(selfUserEntity.getUserAccount());
         redisUtil.set(key,selfUserEntity,1800);
         // 封装返回参数
         Map<String,Object> resultData = new HashMap<>();
         resultData.put("code","SUCCESS");
         resultData.put("msg", "登录成功");
         resultData.put("user", selfUserEntity);
-        resultData.put("token",AuthenticationUtil.getTokenAESen(selfUserEntity.getUsername(),uuid));
+        resultData.put("token",AuthenticationUtil.getTokenAESen(selfUserEntity.getUserAccount(),uuid));
         RestResult.responseJson(response,resultData);
     }
 }

@@ -89,6 +89,15 @@
     </select>
 
   <select id="findLoginUserExist" resultType="com.whkj.project.entity.UserEntity">
-        SELECT * FROM `system_user` WHERE user_account = #{userName} LIMIT 1
+    SELECT
+        system_user.id,
+        system_user.user_account AS userAccount,
+        system_user.`password`,
+        system_user.nike_name AS nikeName
+    FROM
+            `system_user`
+    WHERE
+            user_account = #{userName}
+            LIMIT 1
   </select>
 </mapper>

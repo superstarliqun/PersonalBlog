@@ -1,6 +1,7 @@
 package com.whkj.project.common.security;
 
 import com.whkj.project.common.configure.AuthenticationFilter;
+import com.whkj.project.common.configure.ImageCodeFilter;
 import com.whkj.project.common.handler.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -44,6 +45,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserAuthAccessDeniedHandler userAuthAccessDeniedHandler;
 
+    @Autowired
+    private ImageCodeFilter imageCodeFilter;
+
     /**
      * 注入自定义PermissionEvaluator
      */
@@ -63,7 +67,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         //该方法验证图片拦截器
-        //http.addFilterBefore(imageCodeFilter, UsernamePasswordAuthenticationFilter.class);
+        http.addFilterBefore(imageCodeFilter, UsernamePasswordAuthenticationFilter.class);
         http.authorizeRequests()
                 .antMatchers("/login").permitAll()
                 .antMatchers("/user/generateImages").permitAll()
