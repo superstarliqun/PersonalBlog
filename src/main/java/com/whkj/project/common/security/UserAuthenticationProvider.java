@@ -2,6 +2,7 @@ package com.whkj.project.common.security;
 
 import com.whkj.project.entity.UserEntity;
 import com.whkj.project.mapper.LoginLogMapper;
+import com.whkj.project.mapper.UserMapper;
 import com.whkj.project.service.LoginLogService;
 import com.whkj.project.utils.AuthenticationUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,9 +28,8 @@ import java.util.Set;
 @Component
 public class UserAuthenticationProvider implements AuthenticationProvider {
 
-
     @Autowired
-    private LoginLogMapper loginLogMapper;
+    private UserMapper userMapper;
 
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
@@ -39,7 +39,7 @@ public class UserAuthenticationProvider implements AuthenticationProvider {
         String password = (String) authentication.getCredentials();
 
         // 查询用户是否存在
-        UserEntity userInfo = loginLogMapper.findLoginUserExist(userName);
+        UserEntity userInfo = userMapper.findLoginUserExist(userName);
 
         if (userInfo == null) {
             throw new UsernameNotFoundException("用户名不存在");

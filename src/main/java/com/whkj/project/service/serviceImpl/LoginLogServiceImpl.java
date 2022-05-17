@@ -1,5 +1,8 @@
 package com.whkj.project.service.serviceImpl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.whkj.project.utils.RestResult;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
@@ -12,13 +15,8 @@ import java.util.List;
 @Service
 public class LoginLogServiceImpl implements LoginLogService{
 
-    @Resource
+    @Autowired(required = false)
     private LoginLogMapper loginLogMapper;
-
-    @Override
-    public int deleteByPrimaryKey(Integer id) {
-        return loginLogMapper.deleteByPrimaryKey(id);
-    }
 
     @Override
     public int insert(LoginLog record) {
@@ -26,29 +24,9 @@ public class LoginLogServiceImpl implements LoginLogService{
     }
 
     @Override
-    public int insertSelective(LoginLog record) {
-        return loginLogMapper.insertSelective(record);
+    public RestResult queryLoginLog() {
+        LambdaQueryWrapper<LoginLog>  lambdaQueryWrapper = new LambdaQueryWrapper();
+        List<LoginLog> loginLogs = loginLogMapper.selectList(lambdaQueryWrapper);
+        return RestResult.ok(loginLogs);
     }
-
-    @Override
-    public LoginLog selectByPrimaryKey(Integer id) {
-        return loginLogMapper.selectByPrimaryKey(id);
-    }
-
-    @Override
-    public int updateByPrimaryKeySelective(LoginLog record) {
-        return loginLogMapper.updateByPrimaryKeySelective(record);
-    }
-
-    @Override
-    public int updateByPrimaryKey(LoginLog record) {
-        return loginLogMapper.updateByPrimaryKey(record);
-    }
-
-    @Override
-    @Cacheable(cacheNames = "login_log",key = "123")
-    public List<LoginLog> getLoginLog() {
-        return loginLogMapper.getLoginLog();
-    }
-
 }

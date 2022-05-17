@@ -32,18 +32,17 @@ public class LoginController {
                         @RequestParam(value = "rememberMe",defaultValue = "false") Boolean rememberMe,
                         @RequestParam(value = "captcha") String captcha,
                         HttpServletRequest request){
-
     }
 
 
     /**
-     * 查询日志列表方法
+     * 查询登录日志列表数据
      */
-
-    @GetMapping(value = "/getLoginLog")
-    public RestResult getLoginLog(){
-        return RestResult.ok(loginLogService.getLoginLog());
+    @GetMapping(value = "/queryLoginLog")
+    public RestResult queryLoginLog(){
+        return loginLogService.queryLoginLog();
     }
+
 
 
 

@@ -90,4 +90,17 @@
             </if>
         </trim>
     </insert>
+
+    <select id="findLoginUserExist" resultMap="BaseResultMap">
+        SELECT
+        system_user.id,
+        system_user.user_account,
+        system_user.`password`,
+        system_user.nike_name
+        FROM
+            `system_user`
+        WHERE
+            user_account = #{userName}
+        LIMIT 1
+    </select>
 </mapper>

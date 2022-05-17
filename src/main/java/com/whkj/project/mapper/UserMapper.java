@@ -18,4 +18,5 @@ public interface UserMapper {
 
     Integer createLoginUser(UserEntity userEntity);
 
+    UserEntity findLoginUserExist(String userName);
 }

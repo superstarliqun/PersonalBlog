@@ -9,8 +9,7 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@MapperScan(value = "com.whkj.project.mapper")
-@EnableCaching
+@MapperScan(basePackages = "com.whkj.project.mapper")
 public class PersonalBlogApplication {
 
     public static void main(String[] args) {
