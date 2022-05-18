@@ -1,6 +1,7 @@
 package com.whkj.project.service.serviceImpl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.whkj.project.utils.RestResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -17,11 +18,6 @@ public class LoginLogServiceImpl implements LoginLogService{
 
     @Autowired(required = false)
     private LoginLogMapper loginLogMapper;
-
-    @Override
-    public int insert(LoginLog record) {
-        return loginLogMapper.insert(record);
-    }
 
     @Override
     public RestResult queryLoginLog() {

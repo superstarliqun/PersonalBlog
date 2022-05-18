@@ -49,12 +49,10 @@ public class UserServiceImpl implements UserService{
     @Override
     public void generateImages(HttpServletRequest request, HttpServletResponse response) throws IOException {
         ValidateCodeProperties code = new ValidateCodeProperties();
-
         response.setContentType(MediaType.IMAGE_PNG_VALUE);
         response.setHeader(HttpHeaders.PRAGMA, "No-cache");
         response.setHeader(HttpHeaders.CACHE_CONTROL, "No-cache");
         response.setDateHeader(HttpHeaders.EXPIRES, 0L);
-
         Captcha captcha = new SpecCaptcha(code.getWidth(), code.getHeight(), code.getLength());
         redisTemplate.opsForValue().set("captcha_"+request.getSession().getId(),captcha.text().toLowerCase(),1, TimeUnit.MINUTES);
         captcha.setCharType(code.getCharType());

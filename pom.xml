@@ -18,7 +18,7 @@
         <boot.starter.version>1.2.0</boot.starter.version>
         <httpcomponents.version>4.4.10</httpcomponents.version>
         <httpclient.version>4.5.6</httpclient.version>
-        <mysql.version>5.1.35</mysql.version>
+        <mysql.version>8.0.19</mysql.version>
         <pagehelper.version>1.2.5</pagehelper.version>
         <redis.version>3.1.0</redis.version>
         <commons.version>3.10</commons.version>

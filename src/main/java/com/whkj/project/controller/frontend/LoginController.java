@@ -1,26 +1,24 @@
 package com.whkj.project.controller.frontend;
 
-import com.whkj.project.service.serviceImpl.ValidationOfCaptcha;
+import com.whkj.project.service.UserService;
 import com.whkj.project.service.LoginLogService;
 import com.whkj.project.utils.RestResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 
 @RestController
 public class LoginController {
 
     @Autowired
-    LoginLogService loginLogService;
+    private LoginLogService loginLogService;
 
     @Autowired
-    RedisTemplate redisTemplate;
-
-
+    private UserService userService;
 
     /**
      * 登录
@@ -34,6 +32,16 @@ public class LoginController {
                         HttpServletRequest request){
     }
 
+    /**
+     * 生成验证码
+     * @param request
+     * @param response
+     * @throws IOException
+     */
+    @GetMapping(value = "/generateImages")
+    public void generateImages(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        userService.generateImages(request,response);
+    }
 
     /**
      * 查询登录日志列表数据

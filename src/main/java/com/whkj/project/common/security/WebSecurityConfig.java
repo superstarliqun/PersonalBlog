@@ -70,7 +70,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.addFilterBefore(imageCodeFilter, UsernamePasswordAuthenticationFilter.class);
         http.authorizeRequests()
                 .antMatchers("/login").permitAll()
-                .antMatchers("/user/generateImages").permitAll()
+                .antMatchers("/generateImages").permitAll()
                  //其他的需要登陆后才能访问
                 .anyRequest().authenticated()
                 .and()

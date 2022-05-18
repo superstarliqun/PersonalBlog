@@ -27,16 +27,7 @@ public class UserController {
         return RestResult.ok();
     }
 
-    /**
-     * 生成验证码
-     * @param request
-     * @param response
-     * @throws IOException
-     */
-    @GetMapping(value = "/generateImages")
-    public void generateImages(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        userService.generateImages(request,response);
-    }
+
 
 
 }

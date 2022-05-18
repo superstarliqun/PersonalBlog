@@ -8,7 +8,5 @@ import java.util.List;
 
 public interface LoginLogService{
 
-    int insert(LoginLog record);
-
     RestResult queryLoginLog();
 }
