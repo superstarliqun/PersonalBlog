@@ -29,7 +29,6 @@ public class ArticleController {
                            @PathVariable Integer size,
                            String keyWords){
         return articleService.page(num,size,keyWords);
-
     }
 
     /**
