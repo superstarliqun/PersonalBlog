@@ -1,4 +1,4 @@
-run = "javac Main.java && java Main"
+run = "javac PersonalBlogApplication.java"
 language = "java"
 
 [debugger]
